@@ -1,0 +1,501 @@
+ID,MAX SPEED,MAX SPEED RAW,MAX SPEED DATE TIME,THRESHOLD MESSAGE (MAX),MIN SPEED,MIN SPEED RAW,MIN SPEED DATE TIME,THRESHOLD MESSAGE (MIN)
+8193,14 Mbit/s,1760712.0187,12-03-2024 18:01:00,not_set,2.28 Mbit/s,284459.8933,12-03-2024 19:49:00,not_set
+10705,118 Mbit/s,14713930.5037,12-03-2024 18:02:22,not_set,28 Mbit/s,3499027.3,12-03-2024 20:06:22,not_set
+9966,304 Mbit/s,38051548.6,12-03-2024 20:17:42,not_set,1.36 Mbit/s,170559.4099,12-03-2024 19:19:42,not_set
+10017,307 Mbit/s,38327776.6372,12-03-2024 20:17:17,not_set,1.53 Mbit/s,190860.9833,12-03-2024 19:32:17,not_set
+9930,0.46 Mbit/s,57477.8833,12-03-2024 19:30:10,MAX SPEED for ID 9930 is within both Upper Error Limit(130.0 Mbit/s) and Upper Warning Limit(100.0 Mbit/s),0.05 Mbit/s,6850.6751,12-03-2024 19:52:10,not_set
+10968,0.52 Mbit/s,64469.7783,12-03-2024 18:04:43,not_set,0.27 Mbit/s,33333.7833,12-03-2024 18:20:43,not_set
+11001,0.52 Mbit/s,65061.2667,12-03-2024 18:12:11,not_set,0.27 Mbit/s,33447.0078,12-03-2024 19:50:11,not_set
+10590,8.45 Mbit/s,1056182.5333,12-03-2024 19:50:53,not_set,< 0.01,345.2425,12-03-2024 19:26:53,not_set
+2718,4.05 Mbit/s,505864.6647,12-03-2024 19:00:48,not_set,0.50 Mbit/s,62140.9409,12-03-2024 20:11:58,not_set
+2729,3.51 Mbit/s,438912.3,12-03-2024 19:00:43,not_set,0.02 Mbit/s,2357.5425,12-03-2024 19:51:13,not_set
+2751,3.51 Mbit/s,438557.4,12-03-2024 19:00:49,not_set,0.02 Mbit/s,1889.9,12-03-2024 18:09:59,not_set
+2761,4.15 Mbit/s,519042.1421,12-03-2024 19:00:49,not_set,0.33 Mbit/s,41844.6446,12-03-2024 19:56:49,not_set
+4622,2.14 Mbit/s,266977.1772,12-03-2024 19:00:41,not_set,0.02 Mbit/s,3123.4,12-03-2024 18:41:11,not_set
+4628,1.75 Mbit/s,218414.2,12-03-2024 19:00:41,not_set,< 0.01,865.8,12-03-2024 18:41:31,not_set
+9772,7.50 Mbit/s,937561.3769,12-03-2024 18:04:04,not_set,1.61 Mbit/s,200734.9058,12-03-2024 19:53:04,not_set
+9778,7.34 Mbit/s,916935.4059,12-03-2024 18:03:37,not_set,1.59 Mbit/s,198537.7437,12-03-2024 19:52:37,not_set
+7945,4.73 Mbit/s,591668.0833,12-03-2024 19:16:44,MAX SPEED for ID 7945 is within both Upper Error Limit(8000.0 Mbit/s) and Upper Warning Limit(7000.0 Mbit/s),1.26 Mbit/s,157079.2167,12-03-2024 20:09:44,not_set
+4634,9.76 Mbit/s,1220248.0924,12-03-2024 18:17:46,MAX SPEED for ID 4634 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.95 Mbit/s,118966.4343,12-03-2024 18:59:36,not_set
+4700,< 0.01,275.3493,12-03-2024 18:14:25,,,,,Error processing CSV data for ID 4700: could not convert string to float: '<'
+10011,< 0.01,130.9333,12-03-2024 19:52:09,not_set,< 0.01,89.9333,12-03-2024 18:48:09,not_set
+3898,0 Mbit/s,0.0,12-03-2024 18:00:30,not_set,0 Mbit/s,0.0,12-03-2024 18:00:30,not_set
+10862,"1,165 Mbit/s",145667726.5622,12-03-2024 19:31:21,not_set,166 Mbit/s,20734264.8108,12-03-2024 20:03:21,not_set
+10868,776 Mbit/s,97046374.3419,12-03-2024 18:01:31,not_set,71 Mbit/s,8904087.6167,12-03-2024 19:54:31,not_set
+8525,70 Mbit/s,8717892.4472,12-03-2024 18:00:04,not_set,2.28 Mbit/s,285432.8555,12-03-2024 19:45:04,not_set
+7705,2.55 Mbit/s,318782.7971,12-03-2024 19:16:39,not_set,0.08 Mbit/s,10101.7164,12-03-2024 18:10:39,not_set
+4637,13 Mbit/s,1613319.0809,12-03-2024 19:15:29,MAX SPEED for ID 4637 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.54 Mbit/s,67630.3607,12-03-2024 19:31:49,not_set
+4703,< 0.01,355.6557,12-03-2024 19:30:23,,,,,Error processing CSV data for ID 4703: could not convert string to float: '<'
+10591,0.94 Mbit/s,117645.5743,12-03-2024 18:56:38,not_set,0.08 Mbit/s,10343.131,12-03-2024 19:19:38,not_set
+2752,21 Mbit/s,2597461.3,12-03-2024 20:19:07,not_set,0.10 Mbit/s,12144.0,12-03-2024 19:24:17,not_set
+2762,21 Mbit/s,2597563.5,12-03-2024 20:19:06,not_set,0.09 Mbit/s,11849.9499,12-03-2024 19:51:16,not_set
+4624,31 Mbit/s,3923105.2052,12-03-2024 19:25:55,not_set,0.05 Mbit/s,5691.8,12-03-2024 18:22:05,not_set
+4630,31 Mbit/s,3923104.004,12-03-2024 19:25:55,not_set,0.05 Mbit/s,5697.4975,12-03-2024 18:22:05,not_set
+9775,5.52 Mbit/s,689794.0157,12-03-2024 19:32:55,not_set,0.26 Mbit/s,32495.984,12-03-2024 19:52:55,not_set
+9779,5.57 Mbit/s,695669.7616,12-03-2024 19:32:22,not_set,0.26 Mbit/s,32790.4317,12-03-2024 19:57:22,not_set
+4518,9.22 Mbit/s,1153070.9785,12-03-2024 19:27:54,not_set,7.49 Mbit/s,936234.1671,12-03-2024 19:47:54,not_set
+4533,5.06 Mbit/s,632393.8816,12-03-2024 19:01:00,not_set,0.02 Mbit/s,2154.7,12-03-2024 18:32:50,not_set
+4552,4.09 Mbit/s,511407.4074,12-03-2024 19:00:56,not_set,0.37 Mbit/s,45923.6527,12-03-2024 20:13:57,not_set
+4564,3.39 Mbit/s,423840.7035,12-03-2024 19:00:57,not_set,0.03 Mbit/s,3238.4615,12-03-2024 18:49:17,not_set
+4579,0.36 Mbit/s,44729.2585,12-03-2024 19:01:25,not_set,0.10 Mbit/s,12540.4382,12-03-2024 18:06:56,not_set
+4598,0.19 Mbit/s,24157.8422,12-03-2024 19:01:25,not_set,0.03 Mbit/s,3357.1429,12-03-2024 19:13:05,not_set
+4610,1.39 Mbit/s,174132.2645,12-03-2024 19:00:46,not_set,0.05 Mbit/s,6804.2042,12-03-2024 18:54:06,not_set
+4616,1.32 Mbit/s,164467.7355,12-03-2024 19:00:46,not_set,0.01 Mbit/s,1731.1,12-03-2024 19:41:56,not_set
+4643,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4643
+4654,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4654
+7947,0.27 Mbit/s,33267.4446,12-03-2024 19:55:38,MAX SPEED for ID 7947 is within both Upper Error Limit(8000.0 Mbit/s) and Upper Warning Limit(7000.0 Mbit/s),0.02 Mbit/s,2086.0477,12-03-2024 18:08:38,not_set
+10707,131 Mbit/s,16316730.1635,12-03-2024 19:01:09,not_set,22 Mbit/s,2753318.15,12-03-2024 19:53:10,not_set
+10018,< 0.01,112.8688,12-03-2024 19:44:37,not_set,< 0.01,78.6202,12-03-2024 18:30:37,not_set
+10012,< 0.01,110.4517,12-03-2024 18:37:59,not_set,< 0.01,78.9404,12-03-2024 19:00:59,not_set
+9968,9.65 Mbit/s,1206014.0977,12-03-2024 19:46:47,not_set,0.01 Mbit/s,1425.7376,12-03-2024 19:21:47,not_set
+8526,0.11 Mbit/s,14302.5,12-03-2024 19:30:29,not_set,< 0.01,966.4556,12-03-2024 18:34:29,not_set
+7707,0.14 Mbit/s,17397.7159,12-03-2024 19:23:24,not_set,< 0.01,437.4667,12-03-2024 20:07:24,not_set
+4611,1.75 Mbit/s,218220.8,12-03-2024 18:50:31,MAX SPEED for ID 4611 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.02 Mbit/s,3095.4,12-03-2024 19:55:01,not_set
+4617,< 0.01,293.1069,12-03-2024 20:07:22,,,,,Error processing CSV data for ID 4617: could not convert string to float: '<'
+4704,24 Mbit/s,2973163.6637,12-03-2024 18:38:27,MAX SPEED for ID 4704 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.10 Mbit/s,12164.7648,12-03-2024 19:51:57,not_set
+4644,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4644
+4655,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4655
+4241,0.36 Mbit/s,45404.1688,12-03-2024 19:55:23,not_set,0.02 Mbit/s,2058.9539,12-03-2024 18:08:23,not_set
+5535,4.49 Mbit/s,560637.2291,12-03-2024 19:15:59,MAX SPEED for ID 5535 is within both Upper Error Limit(200.0 Mbit/s) and Upper Warning Limit(150.0 Mbit/s),1.29 Mbit/s,160943.0405,12-03-2024 19:47:59,not_set
+10142,39 Mbit/s,4851078.9202,12-03-2024 18:01:08,not_set,11 Mbit/s,1381116.4194,12-03-2024 18:59:53,not_set
+10131,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10131
+10701,69 Mbit/s,8598040.0833,12-03-2024 19:56:31,not_set,15 Mbit/s,1914519.5667,12-03-2024 20:06:31,not_set
+10708,69 Mbit/s,8625992.4654,12-03-2024 19:56:19,not_set,16 Mbit/s,1993941.8055,12-03-2024 20:06:19,not_set
+4474,0.12 Mbit/s,15221.1904,12-03-2024 19:21:11,not_set,0.05 Mbit/s,6639.4592,12-03-2024 20:19:11,not_set
+4480,0.13 Mbit/s,15778.8202,12-03-2024 19:17:38,not_set,0.05 Mbit/s,5840.6641,12-03-2024 19:51:37,not_set
+10749,0 Mbit/s,0.0,12-03-2024 18:00:39,not_set,0 Mbit/s,0.0,12-03-2024 18:00:39,not_set
+8527,0.62 Mbit/s,76895.766,12-03-2024 19:00:33,not_set,0.06 Mbit/s,7392.7488,12-03-2024 18:12:34,not_set
+9882,23 Mbit/s,2902361.0833,12-03-2024 19:44:23,not_set,0.01 Mbit/s,1479.3431,12-03-2024 20:12:23,not_set
+10013,0.02 Mbit/s,2160.9036,12-03-2024 20:18:44,not_set,0.01 Mbit/s,1463.3106,12-03-2024 18:29:44,not_set
+4526,64 Mbit/s,8018097.0147,12-03-2024 18:40:01,MAX SPEED for ID 4526 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),10 Mbit/s,1306438.2103,12-03-2024 19:09:01,not_set
+4540,0.10 Mbit/s,12031.5055,12-03-2024 18:11:18,MAX SPEED for ID 4540 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.02 Mbit/s,2856.5737,12-03-2024 19:45:58,not_set
+4553,31 Mbit/s,3863812.5125,12-03-2024 18:41:01,MAX SPEED for ID 4553 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),1.55 Mbit/s,193601.8981,12-03-2024 19:29:51,not_set
+4565,0.08 Mbit/s,10100.8,12-03-2024 20:15:54,MAX SPEED for ID 4565 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.03 Mbit/s,4219.2771,12-03-2024 18:01:03,not_set
+4705,0.03 Mbit/s,4363.7725,12-03-2024 18:50:48,MAX SPEED for ID 4705 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.03 Mbit/s,3896.9849,12-03-2024 18:38:48,not_set
+4645,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4645
+4656,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4656
+10354,0.10 Mbit/s,12959.2,12-03-2024 19:01:04,not_set,0.09 Mbit/s,10982.2,12-03-2024 20:01:04,not_set
+10362,0.10 Mbit/s,11968.4605,12-03-2024 18:21:03,not_set,0.08 Mbit/s,10104.9342,12-03-2024 18:20:03,not_set
+4242,0.39 Mbit/s,48884.3359,12-03-2024 20:04:48,not_set,0.04 Mbit/s,4461.45,12-03-2024 19:48:48,not_set
+5536,2.05 Mbit/s,256693.3667,12-03-2024 18:18:29,MAX SPEED for ID 5536 is within both Upper Error Limit(200.0 Mbit/s) and Upper Warning Limit(150.0 Mbit/s),0.07 Mbit/s,8866.6222,12-03-2024 19:38:29,not_set
+10143,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10143
+9381,0.02 Mbit/s,2134.9483,12-03-2024 19:58:38,not_set,< 0.01,49.4944,12-03-2024 18:37:38,not_set
+7921,35 Mbit/s,4339971.4111,12-03-2024 19:10:03,not_set,0.01 Mbit/s,1627.4858,12-03-2024 19:40:03,not_set
+3060,5.31 Mbit/s,663936.2894,12-03-2024 19:46:45,not_set,0.09 Mbit/s,10822.8243,12-03-2024 19:35:45,not_set
+9158,0.02 Mbit/s,1915.5771,12-03-2024 19:01:26,not_set,< 0.01,1065.0217,12-03-2024 18:33:26,not_set
+9233,0.02 Mbit/s,2129.9167,12-03-2024 19:00:52,not_set,< 0.01,1087.9147,12-03-2024 19:55:52,not_set
+10702,141 Mbit/s,17577750.6918,12-03-2024 19:01:00,not_set,35 Mbit/s,4399546.4155,12-03-2024 19:59:00,not_set
+10709,162 Mbit/s,20254735.0866,12-03-2024 19:10:34,not_set,31 Mbit/s,3901365.5322,12-03-2024 19:45:34,not_set
+4475,0.13 Mbit/s,15966.8278,12-03-2024 19:24:06,not_set,0.05 Mbit/s,6619.5801,12-03-2024 20:19:06,not_set
+4481,0.12 Mbit/s,15583.6167,12-03-2024 19:20:33,not_set,0.05 Mbit/s,5729.0452,12-03-2024 19:51:33,not_set
+9883,< 0.01,104.6174,12-03-2024 18:02:38,not_set,< 0.01,58.6667,12-03-2024 19:50:38,not_set
+10020,8.60 Mbit/s,1074619.99,12-03-2024 20:06:47,not_set,0.14 Mbit/s,17017.4167,12-03-2024 19:38:47,not_set
+4530,13 Mbit/s,1655283.4194,12-03-2024 18:54:30,MAX SPEED for ID 4530 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),3.35 Mbit/s,418862.9728,12-03-2024 20:13:30,not_set
+4544,0.04 Mbit/s,5194.6,12-03-2024 18:05:25,MAX SPEED for ID 4544 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,1127.8557,12-03-2024 20:18:55,not_set
+4554,< 0.01,507.6076,12-03-2024 20:19:25,,,,,Error processing CSV data for ID 4554: could not convert string to float: '<'
+4566,< 0.01,488.989,12-03-2024 18:03:26,,,,,Error processing CSV data for ID 4566: could not convert string to float: '<'
+8528,14 Mbit/s,1753619.4366,12-03-2024 19:00:54,not_set,11 Mbit/s,1395502.5492,12-03-2024 19:47:54,not_set
+4531,3.51 Mbit/s,438139.7233,12-03-2024 19:11:22,not_set,0.19 Mbit/s,24027.0378,12-03-2024 19:15:22,not_set
+4545,20 Mbit/s,2496474.5255,12-03-2024 19:11:17,not_set,0.16 Mbit/s,20179.4795,12-03-2024 18:52:37,not_set
+4567,21 Mbit/s,2618632.1678,12-03-2024 20:16:05,not_set,0.05 Mbit/s,6750.7,12-03-2024 20:14:35,not_set
+4589,21 Mbit/s,2669787.7,12-03-2024 18:13:48,not_set,0.05 Mbit/s,6541.2587,12-03-2024 18:06:58,not_set
+4608,21 Mbit/s,2669705.6,12-03-2024 18:13:46,not_set,0.05 Mbit/s,6795.5956,12-03-2024 18:06:56,not_set
+4612,21 Mbit/s,2638111.9,12-03-2024 18:16:40,not_set,0.05 Mbit/s,5696.0961,12-03-2024 18:35:50,not_set
+4618,21 Mbit/s,2638110.7,12-03-2024 18:16:40,not_set,0.05 Mbit/s,5734.2685,12-03-2024 20:03:10,not_set
+4646,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4646
+4657,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4657
+10079,0.32 Mbit/s,39976.4833,12-03-2024 19:30:30,not_set,< 0.01,157.5333,12-03-2024 18:07:30,not_set
+10955,120 Mbit/s,14966030.1,12-03-2024 18:08:36,not_set,55 Mbit/s,6824730.1,12-03-2024 19:24:01,not_set
+3061,0.10 Mbit/s,12376.9128,12-03-2024 20:21:05,not_set,0.09 Mbit/s,10713.869,12-03-2024 18:23:05,not_set
+10015,0.04 Mbit/s,4668.7833,12-03-2024 18:29:54,not_set,0.01 Mbit/s,1583.2667,12-03-2024 19:33:54,not_set
+10021,0.02 Mbit/s,2586.2644,12-03-2024 19:11:22,not_set,0.02 Mbit/s,2048.4747,12-03-2024 19:41:22,not_set
+9235,558 Mbit/s,69739766.6944,12-03-2024 20:16:47,not_set,1.80 Mbit/s,225148.5833,12-03-2024 20:19:47,not_set
+10865,884 Mbit/s,110505417.0805,12-03-2024 18:01:23,not_set,203 Mbit/s,25371251.4752,12-03-2024 20:03:23,not_set
+10870,"1,555 Mbit/s",194366252.5167,12-03-2024 19:13:13,not_set,397 Mbit/s,49679292.85,12-03-2024 18:03:13,not_set
+10777,< 0.01,176.7333,12-03-2024 18:39:02,not_set,< 0.01,96.2173,12-03-2024 19:51:02,not_set
+8529,138 Mbit/s,17226446.4423,12-03-2024 18:00:24,not_set,8.06 Mbit/s,1007428.4883,12-03-2024 20:06:24,not_set
+10917,0.10 Mbit/s,12042.9905,12-03-2024 18:00:55,not_set,0.03 Mbit/s,3737.2,12-03-2024 19:56:55,not_set
+7079,0.01 Mbit/s,1773.4978,12-03-2024 19:59:10,not_set,< 0.01,229.5941,12-03-2024 18:33:10,not_set
+4532,0.04 Mbit/s,5149.2836,12-03-2024 20:16:38,not_set,0.04 Mbit/s,5053.211,12-03-2024 20:19:38,not_set
+4546,0.04 Mbit/s,5328.3582,12-03-2024 18:12:39,not_set,0.04 Mbit/s,4869.3467,12-03-2024 18:12:49,not_set
+4555,0.04 Mbit/s,5412.4,12-03-2024 18:44:36,not_set,0.04 Mbit/s,4897.6,12-03-2024 18:44:26,not_set
+4568,0.04 Mbit/s,5442.5299,12-03-2024 18:12:33,not_set,0.04 Mbit/s,4668.2093,12-03-2024 18:23:03,not_set
+4590,0.04 Mbit/s,5465.5,12-03-2024 20:08:14,not_set,0.04 Mbit/s,4949.4494,12-03-2024 20:01:14,not_set
+4609,0.04 Mbit/s,5476.4529,12-03-2024 18:00:07,not_set,0.04 Mbit/s,4944.5,12-03-2024 18:01:37,not_set
+4613,0.04 Mbit/s,5339.2,12-03-2024 18:36:59,not_set,0.04 Mbit/s,4835.6356,12-03-2024 18:27:29,not_set
+4619,0.04 Mbit/s,5339.2,12-03-2024 19:59:54,not_set,0.04 Mbit/s,4835.6356,12-03-2024 19:59:34,not_set
+4647,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4647
+4658,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4658
+10990,4.79 Mbit/s,598458.2194,12-03-2024 19:16:55,not_set,1.41 Mbit/s,176017.55,12-03-2024 18:09:55,not_set
+11011,< 0.01,193.0,12-03-2024 18:04:41,not_set,< 0.01,92.8321,12-03-2024 19:50:41,not_set
+10755,< 0.01,177.8296,12-03-2024 18:39:05,not_set,< 0.01,96.45,12-03-2024 19:53:05,not_set
+10247,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10247
+10257,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10257
+10336,520 Mbit/s,64995081.797,12-03-2024 19:29:16,not_set,0.06 Mbit/s,7767.9333,12-03-2024 19:06:16,not_set
+10775,2.57 Mbit/s,320856.3261,12-03-2024 19:16:42,not_set,0.09 Mbit/s,10936.9667,12-03-2024 18:10:42,not_set
+4556,12 Mbit/s,1441979.6797,12-03-2024 18:36:43,MAX SPEED for ID 4556 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,449.2016,12-03-2024 20:04:53,not_set
+4569,1.11 Mbit/s,138231.0689,12-03-2024 18:36:22,MAX SPEED for ID 4569 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,338.9831,12-03-2024 20:02:32,not_set
+4648,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4648
+4659,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4659
+7065,1.15 Mbit/s,144202.0558,12-03-2024 20:06:35,not_set,< 0.01,205.9667,12-03-2024 19:05:05,not_set
+10369,0.56 Mbit/s,69904.3507,12-03-2024 18:54:19,not_set,0.03 Mbit/s,3278.4667,12-03-2024 20:13:20,not_set
+10375,0.45 Mbit/s,56114.181,12-03-2024 18:54:31,not_set,0.03 Mbit/s,3267.7113,12-03-2024 20:18:31,not_set
+10918,0.14 Mbit/s,16966.25,12-03-2024 18:15:35,not_set,0.01 Mbit/s,1694.8491,12-03-2024 20:20:35,not_set
+10999,< 0.01,57.6763,12-03-2024 20:15:14,not_set,< 0.01,40.8599,12-03-2024 18:05:14,not_set
+11000,< 0.01,58.3431,12-03-2024 18:14:53,not_set,< 0.01,39.5,12-03-2024 20:22:53,not_set
+10991,0.43 Mbit/s,53680.9635,12-03-2024 19:54:56,not_set,0.06 Mbit/s,7100.2667,12-03-2024 18:39:56,not_set
+11012,< 0.01,259.4167,12-03-2024 18:21:44,not_set,< 0.01,178.7833,12-03-2024 19:02:44,not_set
+4638,10 Mbit/s,1257717.0341,12-03-2024 18:15:41,MAX SPEED for ID 4638 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),1.17 Mbit/s,146299.8997,12-03-2024 18:59:41,not_set
+4706,< 0.01,194.5946,12-03-2024 18:14:41,,,,,Error processing CSV data for ID 4706: could not convert string to float: '<'
+4614,3.45 Mbit/s,431652.6527,12-03-2024 18:50:34,MAX SPEED for ID 4614 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.04 Mbit/s,4778.1,12-03-2024 18:46:04,not_set
+4620,< 0.01,169.1,12-03-2024 19:46:25,,,,,Error processing CSV data for ID 4620: could not convert string to float: '<'
+10248,3.60 Mbit/s,449551.1081,12-03-2024 19:12:01,not_set,1.20 Mbit/s,149974.9708,12-03-2024 20:14:01,not_set
+9969,8.47 Mbit/s,1058525.4876,12-03-2024 19:38:22,not_set,2.68 Mbit/s,335446.1667,12-03-2024 20:19:22,not_set
+8530,112 Mbit/s,14041558.15,12-03-2024 18:40:44,not_set,0.23 Mbit/s,29127.45,12-03-2024 19:27:44,not_set
+4557,< 0.01,472.5823,12-03-2024 18:56:04,,,,,Error processing CSV data for ID 4557: could not convert string to float: '<'
+4570,< 0.01,411.2903,12-03-2024 19:02:00,,,,,Error processing CSV data for ID 4570: could not convert string to float: '<'
+10919,0.39 Mbit/s,48725.9877,12-03-2024 19:38:00,not_set,< 0.01,218.3364,12-03-2024 19:29:00,not_set
+10134,< 0.01,92.7643,12-03-2024 19:17:36,not_set,< 0.01,92.7179,12-03-2024 18:01:36,not_set
+10144,< 0.01,98.0662,12-03-2024 18:23:33,not_set,< 0.01,91.5181,12-03-2024 19:25:33,not_set
+10370,0.74 Mbit/s,92087.1188,12-03-2024 19:01:25,not_set,0.68 Mbit/s,84417.5725,12-03-2024 20:00:25,not_set
+10376,0.74 Mbit/s,92353.6244,12-03-2024 18:07:01,not_set,0.67 Mbit/s,83882.45,12-03-2024 18:00:01,not_set
+11013,< 0.01,56.8428,12-03-2024 19:42:47,not_set,< 0.01,41.893,12-03-2024 18:07:47,not_set
+10992,< 0.01,56.8428,12-03-2024 19:42:57,not_set,< 0.01,41.893,12-03-2024 18:22:57,not_set
+4615,< 0.01,84.2369,12-03-2024 19:54:35,,,,,Error processing CSV data for ID 4615: could not convert string to float: '<'
+4621,< 0.01,77.7889,12-03-2024 19:00:21,,,,,Error processing CSV data for ID 4621: could not convert string to float: '<'
+8459,99 Mbit/s,12334064.3584,12-03-2024 18:40:35,not_set,0.30 Mbit/s,37659.4406,12-03-2024 19:27:36,not_set
+9970,305 Mbit/s,38087200.3333,12-03-2024 20:20:32,not_set,0.13 Mbit/s,16801.817,12-03-2024 19:33:32,not_set
+4558,2.63 Mbit/s,328700.501,12-03-2024 19:09:09,MAX SPEED for ID 4558 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.31 Mbit/s,38505.0,12-03-2024 20:13:20,not_set
+4571,< 0.01,550.1496,12-03-2024 18:50:45,,,,,Error processing CSV data for ID 4571: could not convert string to float: '<'
+10371,0 Mbit/s,0.0,12-03-2024 18:00:45,not_set,0 Mbit/s,0.0,12-03-2024 18:00:45,not_set
+4639,2.22 Mbit/s,277631.6683,12-03-2024 18:33:52,MAX SPEED for ID 4639 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.51 Mbit/s,64194.5946,12-03-2024 20:07:02,not_set
+4650,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4650
+4661,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4661
+10016,1 Mbit/s,124408.9848,12-03-2024 18:04:04,not_set,0.01 Mbit/s,1336.5167,12-03-2024 19:58:04,not_set
+10022,306 Mbit/s,38271135.7333,12-03-2024 20:19:27,not_set,1.30 Mbit/s,162277.0628,12-03-2024 19:19:27,not_set
+9971,8.61 Mbit/s,1076788.7815,12-03-2024 19:38:17,not_set,2.82 Mbit/s,352228.6048,12-03-2024 20:00:17,not_set
+10866,599 Mbit/s,74818195.2175,12-03-2024 18:10:53,not_set,150 Mbit/s,18772172.3954,12-03-2024 20:22:02,not_set
+10871,345 Mbit/s,43152412.5584,12-03-2024 20:09:15,not_set,116 Mbit/s,14495093.1155,12-03-2024 18:00:15,not_set
+4547,19 Mbit/s,2355845.8918,12-03-2024 18:41:09,MAX SPEED for ID 4547 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.02 Mbit/s,2180.1404,12-03-2024 18:01:39,not_set
+4559,< 0.01,490.4905,12-03-2024 19:43:40,,,,,Error processing CSV data for ID 4559: could not convert string to float: '<'
+10252,0.01 Mbit/s,1271.738,12-03-2024 19:29:51,not_set,< 0.01,1179.9967,12-03-2024 19:28:51,not_set
+4640,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4640
+4651,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4651
+8580,99 Mbit/s,12433354.7167,12-03-2024 18:45:32,not_set,0.22 Mbit/s,27288.9722,12-03-2024 19:24:32,not_set
+8582,0.02 Mbit/s,2955.826,12-03-2024 18:40:53,not_set,< 0.01,575.9114,12-03-2024 19:53:58,not_set
+10366,0 Mbit/s,0.0,12-03-2024 18:00:50,not_set,0 Mbit/s,0.0,12-03-2024 18:00:50,not_set
+10372,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10372
+2769,0.04 Mbit/s,4378.5,12-03-2024 18:13:45,not_set,0.03 Mbit/s,3965.4655,12-03-2024 18:14:15,not_set
+7706,2.61 Mbit/s,325864.75,12-03-2024 19:16:19,not_set,0.10 Mbit/s,13012.6667,12-03-2024 18:11:19,not_set
+10241,0.01 Mbit/s,1290.1601,12-03-2024 18:59:50,not_set,< 0.01,1197.0824,12-03-2024 19:58:50,not_set
+9967,10 Mbit/s,1274250.8167,12-03-2024 20:07:07,not_set,0.20 Mbit/s,24642.5975,12-03-2024 19:31:07,not_set
+8428,0.02 Mbit/s,2201.0505,12-03-2024 18:08:38,not_set,< 0.01,483.9773,12-03-2024 19:53:39,not_set
+8461,100 Mbit/s,12459880.607,12-03-2024 18:45:16,not_set,0.22 Mbit/s,27750.8,12-03-2024 19:00:16,not_set
+10447,0 Mbit/s,0.0,12-03-2024 18:00:45,not_set,0 Mbit/s,0.0,12-03-2024 18:00:45,not_set
+10969,2.93 Mbit/s,366084.7308,12-03-2024 19:43:44,not_set,1.29 Mbit/s,161633.95,12-03-2024 20:09:44,not_set
+11002,0.02 Mbit/s,1906.9345,12-03-2024 18:27:14,not_set,0.01 Mbit/s,1698.65,12-03-2024 19:50:14,not_set
+11003,0.07 Mbit/s,8904.0833,12-03-2024 19:21:17,not_set,0.04 Mbit/s,5479.2333,12-03-2024 19:48:17,not_set
+4548,12 Mbit/s,1552199.6994,12-03-2024 18:09:42,MAX SPEED for ID 4548 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.16 Mbit/s,20004.6953,12-03-2024 19:15:02,not_set
+4560,< 0.01,555.6444,12-03-2024 18:02:59,,,,,Error processing CSV data for ID 4560: could not convert string to float: '<'
+10367,0 Mbit/s,0.0,12-03-2024 18:00:05,not_set,0 Mbit/s,0.0,12-03-2024 18:00:05,not_set
+4641,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4641
+4652,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4652
+6531,117 Mbit/s,14562633.5723,12-03-2024 19:16:36,not_set,0.87 Mbit/s,109185.6333,12-03-2024 19:25:36,not_set
+10242,0.03 Mbit/s,4157.9947,12-03-2024 18:03:22,not_set,0.02 Mbit/s,2985.7548,12-03-2024 18:00:21,not_set
+10253,0.03 Mbit/s,4086.1977,12-03-2024 18:03:36,not_set,0.03 Mbit/s,3159.1265,12-03-2024 18:00:36,not_set
+10970,2.57 Mbit/s,321345.5076,12-03-2024 19:16:45,not_set,0.09 Mbit/s,10989.6833,12-03-2024 18:10:45,not_set
+4642,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4642
+4653,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 4653
+10368,0 Mbit/s,0.0,12-03-2024 18:00:40,not_set,0 Mbit/s,0.0,12-03-2024 18:00:40,not_set
+6532,7.51 Mbit/s,939007.2,12-03-2024 19:06:41,not_set,0.18 Mbit/s,21878.6,12-03-2024 19:24:41,not_set
+10243,< 0.01,80.3437,12-03-2024 19:40:18,not_set,< 0.01,74.5754,12-03-2024 19:09:18,not_set
+10254,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10254
+4635,13 Mbit/s,1633446.3,12-03-2024 19:15:27,MAX SPEED for ID 4635 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.56 Mbit/s,69777.0771,12-03-2024 19:51:27,not_set
+4701,< 0.01,83.1325,12-03-2024 19:43:10,,,,,Error processing CSV data for ID 4701: could not convert string to float: '<'
+10706,0.02 Mbit/s,2747.7682,12-03-2024 19:00:43,not_set,0.01 Mbit/s,1645.3909,12-03-2024 19:03:42,not_set
+6533,104 Mbit/s,13025835.3,12-03-2024 19:16:31,not_set,0.88 Mbit/s,110108.6514,12-03-2024 18:05:31,not_set
+4549,0.39 Mbit/s,48698.1982,12-03-2024 19:01:05,MAX SPEED for ID 4549 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.05 Mbit/s,5722.8,12-03-2024 18:01:55,not_set
+4561,0.30 Mbit/s,36878.6573,12-03-2024 18:35:12,MAX SPEED for ID 4561 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.04 Mbit/s,4973.1732,12-03-2024 18:01:52,not_set
+10244,4.51 Mbit/s,563483.6663,12-03-2024 18:36:38,not_set,1.81 Mbit/s,226218.0273,12-03-2024 20:00:38,not_set
+10996,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10996
+10869,0 Mbit/s,0.0,12-03-2024 18:00:35,not_set,0 Mbit/s,0.0,12-03-2024 18:00:35,not_set
+4636,11 Mbit/s,1387438.8388,12-03-2024 18:17:48,MAX SPEED for ID 4636 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),1.14 Mbit/s,141894.006,12-03-2024 18:59:38,not_set
+4702,< 0.01,230.4,12-03-2024 18:14:44,,,,,Error processing CSV data for ID 4702: could not convert string to float: '<'
+6534,8.76 Mbit/s,1094862.5333,12-03-2024 19:06:51,not_set,0.17 Mbit/s,21422.0667,12-03-2024 19:59:51,not_set
+6521,< 0.01,1197.1662,12-03-2024 19:01:27,not_set,< 0.01,287.2333,12-03-2024 19:24:27,not_set
+9138,52 Mbit/s,6479425.4249,12-03-2024 18:27:36,not_set,1.65 Mbit/s,205782.3637,12-03-2024 19:51:36,not_set
+8029,8.63 Mbit/s,1079016.3,12-03-2024 19:43:04,MAX SPEED for ID 8029 is within both Upper Error Limit(210.0 Mbit/s) and Upper Warning Limit(150.0 Mbit/s),0.10 Mbit/s,12420.9,12-03-2024 20:16:44,MIN SPEED for ID 8029 crosses Lower Warning Limit(0.05 Mbit/s)
+5330,1.89 Mbit/s,236497.5329,12-03-2024 18:17:45,not_set,0.13 Mbit/s,15984.5333,12-03-2024 19:18:45,not_set
+9202,"2,134 Mbit/s",266748800.8999,12-03-2024 20:07:12,not_set,14 Mbit/s,1802671.2,12-03-2024 18:59:12,not_set
+9141,5.70 Mbit/s,712401.1002,12-03-2024 20:16:15,not_set,0.55 Mbit/s,68335.6797,12-03-2024 19:45:15,not_set
+9210,187 Mbit/s,23321654.2667,12-03-2024 20:11:13,not_set,2.25 Mbit/s,281344.2167,12-03-2024 20:13:13,not_set
+9773,0 Mbit/s,0.0,12-03-2024 18:00:31,not_set,0 Mbit/s,0.0,12-03-2024 18:00:31,not_set
+9795,0 Mbit/s,0.0,12-03-2024 18:00:44,not_set,0 Mbit/s,0.0,12-03-2024 18:00:44,not_set
+7946,19 Mbit/s,2433359.3594,12-03-2024 19:16:03,MAX SPEED for ID 7946 is within both Upper Error Limit(510.0 Mbit/s) and Upper Warning Limit(450.0 Mbit/s),0.88 Mbit/s,110603.1,12-03-2024 19:03:23,MIN SPEED for ID 7946 crosses Lower Warning Limit(0.05 Mbit/s)
+9142,51 Mbit/s,6430207.3988,12-03-2024 18:27:25,not_set,1.68 Mbit/s,209451.7839,12-03-2024 20:06:25,not_set
+9212,"1,356 Mbit/s",169443729.8933,12-03-2024 19:35:08,not_set,9.56 Mbit/s,1195505.5463,12-03-2024 20:04:08,not_set
+9143,5.66 Mbit/s,707172.2333,12-03-2024 20:15:59,not_set,0.54 Mbit/s,67093.751,12-03-2024 18:56:59,not_set
+7979,119 Mbit/s,14820377.2295,12-03-2024 18:02:07,not_set,30 Mbit/s,3728103.7173,12-03-2024 20:11:07,not_set
+10977,< 0.01,5.903,12-03-2024 20:06:46,not_set,< 0.01,5.898,12-03-2024 18:18:46,not_set
+9213,85 Mbit/s,10676920.993,12-03-2024 18:51:36,not_set,1.13 Mbit/s,141635.7095,12-03-2024 20:01:36,not_set
+8464,0.01 Mbit/s,1314.1524,12-03-2024 19:01:34,not_set,< 0.01,393.0655,12-03-2024 18:14:34,not_set
+8432,< 0.01,1198.5819,12-03-2024 19:00:46,not_set,< 0.01,318.7531,12-03-2024 19:14:46,not_set
+7684,< 0.01,220.7,12-03-2024 20:23:45,not_set,< 0.01,88.4,12-03-2024 18:33:55,not_set
+7687,1.70 Mbit/s,212456.2,12-03-2024 19:31:15,not_set,< 0.01,363.1,12-03-2024 19:39:15,not_set
+9774,1.33 Mbit/s,166867.2388,12-03-2024 18:20:43,not_set,0.06 Mbit/s,7837.5729,12-03-2024 19:51:43,not_set
+9780,1.34 Mbit/s,166911.8853,12-03-2024 18:20:13,not_set,0.06 Mbit/s,7843.9073,12-03-2024 19:52:13,not_set
+9796,< 0.01,81.0667,12-03-2024 18:05:49,not_set,< 0.01,51.6414,12-03-2024 18:20:49,not_set
+10978,< 0.01,20.09,12-03-2024 18:05:47,not_set,< 0.01,20.08,12-03-2024 18:07:47,not_set
+10657,129 Mbit/s,16143889.75,12-03-2024 19:01:54,not_set,22 Mbit/s,2768505.4833,12-03-2024 19:52:55,not_set
+9214,808 Mbit/s,100980015.1434,12-03-2024 19:35:05,not_set,4.73 Mbit/s,591779.35,12-03-2024 20:04:05,not_set
+4623,9.24 Mbit/s,1154689.5,12-03-2024 19:43:04,MAX SPEED for ID 4623 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.85 Mbit/s,105796.8032,12-03-2024 20:04:24,not_set
+4629,< 0.01,948.2,12-03-2024 18:35:24,,,,,Error processing CSV data for ID 4629: could not convert string to float: '<'
+2719,69 Mbit/s,8644915.9,12-03-2024 19:40:32,MAX SPEED for ID 2719 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),2.17 Mbit/s,271013.3133,12-03-2024 19:20:42,not_set
+2730,0.05 Mbit/s,5830.9,12-03-2024 19:02:38,MAX SPEED for ID 2730 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.02 Mbit/s,2239.3606,12-03-2024 18:09:18,not_set
+8465,0.01 Mbit/s,1263.9407,12-03-2024 19:00:48,not_set,< 0.01,312.4604,12-03-2024 18:38:48,not_set
+8433,< 0.01,1248.3092,12-03-2024 19:00:50,not_set,< 0.01,328.0073,12-03-2024 18:06:50,not_set
+4578,5.21 Mbit/s,650720.8,12-03-2024 18:06:23,MAX SPEED for ID 4578 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.11 Mbit/s,13541.5493,12-03-2024 19:59:33,not_set
+4597,< 0.01,1131.9319,12-03-2024 19:16:43,,,,,Error processing CSV data for ID 4597: could not convert string to float: '<'
+9144,580 Mbit/s,72437873.6667,12-03-2024 18:13:07,not_set,19 Mbit/s,2424721.5667,12-03-2024 20:18:07,not_set
+7081,0.03 Mbit/s,4064.9858,12-03-2024 18:40:55,not_set,0.01 Mbit/s,1377.9565,12-03-2024 20:04:55,not_set
+7067,179 Mbit/s,22343779.5866,12-03-2024 20:06:45,not_set,0.01 Mbit/s,1282.9759,12-03-2024 20:03:45,not_set
+9776,79 Mbit/s,9829677.4167,12-03-2024 18:22:58,not_set,60 Mbit/s,7485286.2977,12-03-2024 20:06:58,not_set
+9781,75 Mbit/s,9427172.8788,12-03-2024 18:23:19,not_set,61 Mbit/s,7567784.3141,12-03-2024 20:07:19,not_set
+9797,< 0.01,90.8651,12-03-2024 18:41:04,not_set,< 0.01,51.6414,12-03-2024 18:11:04,not_set
+9215,0.01 Mbit/s,1581.276,12-03-2024 18:12:21,not_set,0.01 Mbit/s,1475.9046,12-03-2024 20:11:21,not_set
+8466,1.14 Mbit/s,141952.6746,12-03-2024 19:30:38,not_set,0.22 Mbit/s,28042.5241,12-03-2024 20:06:38,not_set
+8434,1.25 Mbit/s,156323.1705,12-03-2024 19:30:34,not_set,0.24 Mbit/s,30169.9883,12-03-2024 19:31:34,not_set
+4625,< 0.01,142.4273,12-03-2024 19:07:37,,,,,Error processing CSV data for ID 4625: could not convert string to float: '<'
+4631,< 0.01,142.3848,12-03-2024 20:07:32,,,,,Error processing CSV data for ID 4631: could not convert string to float: '<'
+2720,22 Mbit/s,2711728.2,12-03-2024 19:56:05,MAX SPEED for ID 2720 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),7.09 Mbit/s,886370.4409,12-03-2024 19:48:15,not_set
+2731,0.01 Mbit/s,1764.1642,12-03-2024 18:14:31,MAX SPEED for ID 2731 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,737.2627,12-03-2024 18:00:51,not_set
+4580,< 0.01,143.7751,12-03-2024 19:44:55,,,,,Error processing CSV data for ID 4580: could not convert string to float: '<'
+4599,< 0.01,203.5714,12-03-2024 20:01:58,,,,,Error processing CSV data for ID 4599: could not convert string to float: '<'
+10980,0.43 Mbit/s,53407.0,12-03-2024 18:50:48,not_set,0.04 Mbit/s,4872.7,12-03-2024 19:18:48,not_set
+11004,< 0.01,327.7046,12-03-2024 18:33:20,not_set,< 0.01,261.4167,12-03-2024 20:10:20,not_set
+9145,278 Mbit/s,34749050.3415,12-03-2024 19:05:46,not_set,7.82 Mbit/s,977399.0673,12-03-2024 18:59:46,not_set
+7708,0 Mbit/s,0.0,12-03-2024 18:00:34,not_set,0 Mbit/s,0.0,12-03-2024 18:00:34,not_set
+9216,668 Mbit/s,83441846.4089,12-03-2024 19:34:33,not_set,9.58 Mbit/s,1197945.3333,12-03-2024 19:36:33,not_set
+8467,< 0.01,1171.2809,12-03-2024 18:52:18,not_set,< 0.01,781.35,12-03-2024 18:45:18,not_set
+8435,0.06 Mbit/s,7062.7461,12-03-2024 19:01:42,not_set,0.01 Mbit/s,1801.2335,12-03-2024 18:22:43,not_set
+2721,69 Mbit/s,8671951.5516,12-03-2024 18:24:26,MAX SPEED for ID 2721 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.14 Mbit/s,17011.3113,12-03-2024 19:43:26,not_set
+2732,0.03 Mbit/s,3732.032,12-03-2024 18:00:42,MAX SPEED for ID 2732 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,567.5676,12-03-2024 18:25:22,not_set
+4626,2.18 Mbit/s,273015.2,12-03-2024 19:11:13,MAX SPEED for ID 4626 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,1079.6797,12-03-2024 20:24:43,not_set
+4632,2.19 Mbit/s,273277.0771,12-03-2024 19:11:13,MAX SPEED for ID 4632 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,1079.8799,12-03-2024 19:45:43,not_set
+4581,5.35 Mbit/s,668409.1908,12-03-2024 18:06:21,MAX SPEED for ID 4581 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.10 Mbit/s,12978.1,12-03-2024 20:01:01,not_set
+4600,1.14 Mbit/s,143095.8167,12-03-2024 18:36:44,MAX SPEED for ID 4600 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,140.4382,12-03-2024 20:00:14,not_set
+10981,0.14 Mbit/s,17864.9833,12-03-2024 19:23:49,not_set,< 0.01,430.8667,12-03-2024 20:00:49,not_set
+11005,< 0.01,243.4572,12-03-2024 19:16:23,not_set,< 0.01,187.1833,12-03-2024 20:07:23,not_set
+9146,628 Mbit/s,78468385.0624,12-03-2024 18:13:18,not_set,21 Mbit/s,2595568.7667,12-03-2024 19:59:18,not_set
+9217,18 Mbit/s,2203454.8726,12-03-2024 20:16:26,not_set,0.94 Mbit/s,117422.2296,12-03-2024 18:07:26,not_set
+8468,< 0.01,584.6949,12-03-2024 18:09:22,not_set,< 0.01,470.4921,12-03-2024 20:04:22,not_set
+8436,0.06 Mbit/s,7929.014,12-03-2024 19:00:48,not_set,0.03 Mbit/s,4357.0405,12-03-2024 20:10:48,not_set
+2722,25 Mbit/s,3065354.9,12-03-2024 19:56:10,MAX SPEED for ID 2722 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),8.49 Mbit/s,1061758.7,12-03-2024 18:09:00,not_set
+2733,< 0.01,640.3403,12-03-2024 18:03:10,,,,,Error processing CSV data for ID 2733: could not convert string to float: '<'
+4627,1.59 Mbit/s,199284.5846,12-03-2024 19:11:08,MAX SPEED for ID 4627 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,1116.6833,12-03-2024 20:04:48,not_set
+4633,1.58 Mbit/s,197363.8,12-03-2024 19:11:08,MAX SPEED for ID 4633 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,1075.1249,12-03-2024 20:04:48,not_set
+10982,1.77 Mbit/s,221601.1833,12-03-2024 19:31:50,not_set,1.20 Mbit/s,150288.8481,12-03-2024 20:09:50,not_set
+11006,< 0.01,238.25,12-03-2024 18:55:26,not_set,< 0.01,179.9167,12-03-2024 19:33:26,not_set
+9147,266 Mbit/s,33224485.1025,12-03-2024 18:29:11,not_set,7.55 Mbit/s,943465.9663,12-03-2024 19:51:11,not_set
+7980,0.02 Mbit/s,2821.4631,12-03-2024 19:01:13,not_set,0.01 Mbit/s,1594.4305,12-03-2024 18:28:13,not_set
+9218,"1,169 Mbit/s",146135561.1343,12-03-2024 20:06:55,not_set,2.98 Mbit/s,372007.4846,12-03-2024 18:43:55,not_set
+8469,617 Mbit/s,77135132.1339,12-03-2024 20:16:26,not_set,0.15 Mbit/s,18336.1347,12-03-2024 18:39:26,not_set
+8437,575 Mbit/s,71906866.1556,12-03-2024 20:16:47,not_set,0.15 Mbit/s,18934.5936,12-03-2024 18:38:47,not_set
+10983,1.43 Mbit/s,178957.5667,12-03-2024 18:17:51,not_set,< 0.01,1155.85,12-03-2024 19:07:51,not_set
+11007,< 0.01,306.15,12-03-2024 19:18:29,not_set,< 0.01,203.884,12-03-2024 19:49:29,not_set
+9148,< 0.01,1054.5212,12-03-2024 19:56:10,not_set,< 0.01,990.5755,12-03-2024 19:57:10,not_set
+10984,0.02 Mbit/s,2629.0263,12-03-2024 19:08:52,not_set,< 0.01,468.3895,12-03-2024 19:49:52,not_set
+11008,< 0.01,346.018,12-03-2024 20:25:32,not_set,< 0.01,199.9167,12-03-2024 19:50:32,not_set
+10735,4.61 Mbit/s,576646.7478,12-03-2024 19:51:10,not_set,0.91 Mbit/s,113377.1833,12-03-2024 20:13:10,not_set
+10985,< 0.01,82.3686,12-03-2024 19:51:53,not_set,< 0.01,81.1792,12-03-2024 19:50:53,not_set
+11009,< 0.01,82.3274,12-03-2024 18:18:35,not_set,< 0.01,81.2198,12-03-2024 18:10:35,not_set
+10352,< 0.01,384.9642,12-03-2024 19:26:39,not_set,< 0.01,300.5667,12-03-2024 19:43:39,not_set
+10986,2.44 Mbit/s,305081.45,12-03-2024 19:16:54,not_set,0.07 Mbit/s,8528.6167,12-03-2024 18:10:54,not_set
+11010,0.06 Mbit/s,7554.7833,12-03-2024 19:21:38,not_set,0.04 Mbit/s,4903.2511,12-03-2024 19:47:38,not_set
+10353,< 0.01,385.9977,12-03-2024 19:26:54,not_set,< 0.01,300.0667,12-03-2024 18:11:54,not_set
+4524,1.89 Mbit/s,235878.5869,12-03-2024 18:46:26,MAX SPEED for ID 4524 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.03 Mbit/s,3943.874,12-03-2024 19:25:26,not_set
+9149,0.02 Mbit/s,1983.8527,12-03-2024 18:02:46,not_set,< 0.01,119.6065,12-03-2024 18:59:46,not_set
+9222,0.06 Mbit/s,7497.3487,12-03-2024 18:09:27,not_set,< 0.01,117.6863,12-03-2024 19:53:27,not_set
+4583,2.52 Mbit/s,314682.4121,12-03-2024 18:10:45,MAX SPEED for ID 4583 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.01 Mbit/s,1360.3206,12-03-2024 19:18:25,not_set
+4602,< 0.01,460.8519,12-03-2024 20:19:18,,,,,Error processing CSV data for ID 4602: could not convert string to float: '<'
+9150,0.14 Mbit/s,16948.3333,12-03-2024 18:35:04,not_set,< 0.01,122.137,12-03-2024 19:31:04,not_set
+4527,4.90 Mbit/s,612686.2758,12-03-2024 18:39:06,MAX SPEED for ID 4527 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),3.48 Mbit/s,434886.4167,12-03-2024 20:00:06,not_set
+4541,3.23 Mbit/s,404299.9,12-03-2024 18:07:43,MAX SPEED for ID 4541 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),2.32 Mbit/s,290355.511,12-03-2024 18:56:53,not_set
+9223,16 Mbit/s,2008557.0953,12-03-2024 18:01:18,not_set,1 Mbit/s,124387.3686,12-03-2024 20:20:18,not_set
+4585,1.94 Mbit/s,242297.3027,12-03-2024 18:10:47,MAX SPEED for ID 4585 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.03 Mbit/s,3324.2,12-03-2024 18:07:07,not_set
+4604,< 0.01,104.4625,12-03-2024 18:02:20,,,,,Error processing CSV data for ID 4604: could not convert string to float: '<'
+9151,0.03 Mbit/s,3714.0667,12-03-2024 19:28:37,not_set,< 0.01,279.9434,12-03-2024 20:10:37,not_set
+9224,0.06 Mbit/s,7569.4847,12-03-2024 19:10:46,not_set,< 0.01,200.967,12-03-2024 19:34:46,not_set
+4586,1.67 Mbit/s,208321.5215,12-03-2024 19:05:49,MAX SPEED for ID 4586 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.01 Mbit/s,1275.5756,12-03-2024 19:54:40,not_set
+4605,< 0.01,1170.4,12-03-2024 18:30:20,,,,,Error processing CSV data for ID 4605: could not convert string to float: '<'
+9931,< 0.01,389.3851,12-03-2024 19:44:20,not_set,< 0.01,148.4914,12-03-2024 18:42:20,not_set
+9152,0.02 Mbit/s,1979.7234,12-03-2024 19:29:09,not_set,< 0.01,121.2141,12-03-2024 19:28:09,not_set
+9225,436 Mbit/s,54454128.4714,12-03-2024 20:16:34,not_set,< 0.01,213.1369,12-03-2024 19:26:34,not_set
+4587,2.74 Mbit/s,342987.5374,12-03-2024 19:05:46,MAX SPEED for ID 4587 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),< 0.01,932.3,12-03-2024 18:26:06,not_set
+4606,< 0.01,334.8303,12-03-2024 19:50:59,,,,,Error processing CSV data for ID 4606: could not convert string to float: '<'
+8470,483 Mbit/s,60431109.4078,12-03-2024 20:16:12,not_set,0.58 Mbit/s,72185.9716,12-03-2024 19:44:11,not_set
+8438,5.40 Mbit/s,674829.6253,12-03-2024 19:11:49,not_set,0.49 Mbit/s,60888.6667,12-03-2024 18:39:49,not_set
+2723,25 Mbit/s,3156976.2763,12-03-2024 20:22:59,not_set,0.09 Mbit/s,11584.2,12-03-2024 19:36:29,not_set
+2734,25 Mbit/s,3142799.6997,12-03-2024 20:22:57,not_set,0.10 Mbit/s,12160.7,12-03-2024 19:20:47,not_set
+9226,639 Mbit/s,79819034.4615,12-03-2024 20:07:09,not_set,< 0.01,127.3607,12-03-2024 19:14:09,not_set
+8471,< 0.01,279.5205,12-03-2024 19:51:28,not_set,< 0.01,233.6171,12-03-2024 19:52:28,not_set
+8439,< 0.01,290.8985,12-03-2024 19:51:03,not_set,< 0.01,226.973,12-03-2024 19:52:03,not_set
+9153,972 Mbit/s,121558435.4167,12-03-2024 18:14:02,not_set,< 0.01,202.4346,12-03-2024 20:00:02,not_set
+7685,0.04 Mbit/s,5344.044,12-03-2024 18:14:34,MAX SPEED for ID 7685 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.02 Mbit/s,2296.4,12-03-2024 18:20:24,not_set
+9782,5.57 Mbit/s,696541.7264,12-03-2024 18:20:49,not_set,0.06 Mbit/s,7000.2,12-03-2024 19:53:49,not_set
+9798,< 0.01,192.4321,12-03-2024 20:01:59,not_set,< 0.01,161.1667,12-03-2024 20:24:59,not_set
+2724,0.04 Mbit/s,5465.6,12-03-2024 19:38:24,not_set,0.04 Mbit/s,4944.4,12-03-2024 19:38:04,not_set
+2735,0.04 Mbit/s,5262.6627,12-03-2024 20:26:14,not_set,0.04 Mbit/s,5152.6,12-03-2024 20:26:04,not_set
+9227,< 0.01,150.3333,12-03-2024 18:42:44,not_set,< 0.01,119.0802,12-03-2024 19:11:44,not_set
+2754,0.04 Mbit/s,5364.0641,12-03-2024 18:06:40,MAX SPEED for ID 2754 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),0.02 Mbit/s,2319.0381,12-03-2024 20:18:20,not_set
+9154,"1,053 Mbit/s",131581617.9453,12-03-2024 20:08:30,not_set,< 0.01,133.628,12-03-2024 20:00:30,not_set
+7688,10 Mbit/s,1300236.1361,12-03-2024 19:17:11,MAX SPEED for ID 7688 is within both Upper Error Limit(500.0 Mbit/s) and Upper Warning Limit(400.0 Mbit/s),1.33 Mbit/s,166535.6,12-03-2024 20:05:01,not_set
+9783,74 Mbit/s,9280131.1552,12-03-2024 18:23:10,not_set,60 Mbit/s,7441895.8486,12-03-2024 19:20:10,not_set
+9784,0 Mbit/s,0.0,12-03-2024 18:00:46,not_set,0 Mbit/s,0.0,12-03-2024 18:00:46,not_set
+9228,142 Mbit/s,17765681.0842,12-03-2024 20:16:57,not_set,< 0.01,117.7982,12-03-2024 18:46:57,not_set
+9155,973 Mbit/s,121637690.0434,12-03-2024 18:13:47,not_set,< 0.01,201.8333,12-03-2024 18:46:47,not_set
+9785,0 Mbit/s,0.0,12-03-2024 18:00:25,not_set,0 Mbit/s,0.0,12-03-2024 18:00:25,not_set
+9229,0.03 Mbit/s,3922.0723,12-03-2024 18:09:30,not_set,< 0.01,201.9673,12-03-2024 18:38:30,not_set
+8440,3.11 Mbit/s,388785.6405,12-03-2024 19:36:05,not_set,0.11 Mbit/s,14021.3202,12-03-2024 19:17:05,not_set
+9156,"1,053 Mbit/s",131603558.2152,12-03-2024 20:08:35,not_set,< 0.01,119.2865,12-03-2024 18:46:35,not_set
+8441,< 0.01,195.6855,12-03-2024 19:15:52,not_set,< 0.01,137.7748,12-03-2024 20:03:52,not_set
+9786,1.32 Mbit/s,165062.4437,12-03-2024 18:20:40,not_set,0.05 Mbit/s,6250.6667,12-03-2024 19:58:40,not_set
+9800,< 0.01,60.2167,12-03-2024 18:05:54,not_set,< 0.01,33.9943,12-03-2024 18:22:54,not_set
+9230,0.06 Mbit/s,7584.5411,12-03-2024 18:09:39,not_set,< 0.01,201.2996,12-03-2024 19:36:39,not_set
+9157,< 0.01,253.7936,12-03-2024 18:09:40,not_set,< 0.01,201.733,12-03-2024 19:11:40,not_set
+9787,77 Mbit/s,9578245.3242,12-03-2024 18:23:16,not_set,60 Mbit/s,7459894.3157,12-03-2024 20:07:16,not_set
+9801,< 0.01,73.2122,12-03-2024 18:41:14,not_set,< 0.01,33.9943,12-03-2024 18:15:14,not_set
+8472,602 Mbit/s,75221939.5469,12-03-2024 20:16:42,not_set,1.54 Mbit/s,192867.5667,12-03-2024 20:19:42,not_set
+8442,< 0.01,282.5804,12-03-2024 18:42:55,not_set,< 0.01,202.998,12-03-2024 19:22:55,not_set
+8443,2.40 Mbit/s,299685.9667,12-03-2024 19:16:51,not_set,0.12 Mbit/s,14581.7106,12-03-2024 18:59:51,not_set
+9802,0 Mbit/s,0.0,12-03-2024 18:00:19,not_set,0 Mbit/s,0.0,12-03-2024 18:00:19,not_set
+8445,0.01 Mbit/s,1367.9773,12-03-2024 18:08:02,not_set,< 0.01,595.0042,12-03-2024 19:21:02,not_set
+9788,0 Mbit/s,0.0,12-03-2024 18:00:07,not_set,0 Mbit/s,0.0,12-03-2024 18:00:07,not_set
+9803,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 9803
+10927,< 0.01,181.3,12-03-2024 18:07:34,not_set,< 0.01,131.8886,12-03-2024 19:20:34,not_set
+8473,318 Mbit/s,39760171.5953,12-03-2024 20:17:01,not_set,1.57 Mbit/s,196077.3962,12-03-2024 20:20:01,not_set
+8446,550 Mbit/s,68716597.7993,12-03-2024 20:16:45,not_set,1.56 Mbit/s,195018.5031,12-03-2024 20:19:45,not_set
+8447,81 Mbit/s,10157431.9053,12-03-2024 18:01:40,not_set,1.54 Mbit/s,192729.9117,12-03-2024 20:19:40,not_set
+9789,71 Mbit/s,8885109.7484,12-03-2024 18:22:34,not_set,60 Mbit/s,7451261.9437,12-03-2024 20:07:34,not_set
+9804,< 0.01,193.0655,12-03-2024 18:28:24,not_set,< 0.01,131.8667,12-03-2024 20:18:24,not_set
+8474,0.01 Mbit/s,1587.2645,12-03-2024 19:36:20,not_set,< 0.01,1135.0392,12-03-2024 19:11:20,not_set
+8448,0.08 Mbit/s,9512.4625,12-03-2024 19:00:56,not_set,0.02 Mbit/s,1955.4908,12-03-2024 18:24:56,not_set
+10956,< 0.01,969.4,12-03-2024 18:45:48,not_set,< 0.01,123.8,12-03-2024 19:50:58,not_set
+9607,< 0.01,283.5671,12-03-2024 19:21:31,not_set,< 0.01,111.0889,12-03-2024 18:55:01,not_set
+8449,< 0.01,246.45,12-03-2024 18:42:44,not_set,< 0.01,168.4272,12-03-2024 19:12:44,not_set
+8475,4.71 Mbit/s,588574.5627,12-03-2024 18:21:30,not_set,< 0.01,1137.3689,12-03-2024 18:11:30,not_set
+8450,2.33 Mbit/s,290929.6617,12-03-2024 18:03:54,not_set,0.43 Mbit/s,53952.4143,12-03-2024 19:27:54,not_set
+9955,95 Mbit/s,11920170.9167,12-03-2024 18:03:33,not_set,0.77 Mbit/s,95818.4333,12-03-2024 19:35:33,not_set
+8579,< 0.01,987.2436,12-03-2024 19:50:36,not_set,< 0.01,601.4164,12-03-2024 18:43:36,not_set
+8477,< 0.01,995.984,12-03-2024 18:52:14,not_set,< 0.01,580.9223,12-03-2024 18:45:14,not_set
+8583,95 Mbit/s,11874599.1336,12-03-2024 18:03:41,not_set,12 Mbit/s,1529529.8816,12-03-2024 19:44:41,not_set
+8452,95 Mbit/s,11874599.1336,12-03-2024 18:03:42,not_set,12 Mbit/s,1527746.6189,12-03-2024 19:44:42,not_set
+8478,0.02 Mbit/s,2283.9667,12-03-2024 19:56:04,not_set,0.01 Mbit/s,1638.1397,12-03-2024 18:51:04,not_set
+8453,9.55 Mbit/s,1194048.7821,12-03-2024 19:01:37,not_set,4.52 Mbit/s,565504.3914,12-03-2024 19:39:37,not_set
+9236,1.50 Mbit/s,187732.683,12-03-2024 20:16:20,not_set,< 0.01,186.3667,12-03-2024 19:26:20,not_set
+9608,< 0.01,41.4,12-03-2024 18:56:26,not_set,< 0.01,27.2,12-03-2024 18:02:36,not_set
+10908,< 0.01,41.4414,12-03-2024 18:56:18,not_set,< 0.01,27.2,12-03-2024 18:02:38,not_set
+10957,< 0.01,498.2983,12-03-2024 18:45:44,not_set,< 0.01,27.2,12-03-2024 18:02:34,not_set
+10378,0.57 Mbit/s,71753.7667,12-03-2024 19:27:14,not_set,0.02 Mbit/s,2726.3044,12-03-2024 19:48:14,not_set
+10928,213 Mbit/s,26603291.3319,12-03-2024 19:32:09,not_set,43 Mbit/s,5412302.5675,12-03-2024 18:02:09,not_set
+10929,221 Mbit/s,27624770.8951,12-03-2024 19:44:21,not_set,47 Mbit/s,5858580.4634,12-03-2024 18:02:21,not_set
+9237,855 Mbit/s,106913810.065,12-03-2024 20:06:59,not_set,0.01 Mbit/s,1505.6435,12-03-2024 18:33:04,not_set
+10379,0.03 Mbit/s,4032.272,12-03-2024 18:45:42,not_set,0.02 Mbit/s,2288.052,12-03-2024 19:46:42,not_set
+10880,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10880
+10878,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10878
+10876,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10876
+10874,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10874
+9159,0.06 Mbit/s,7074.4997,12-03-2024 18:18:47,not_set,0.02 Mbit/s,2680.9468,12-03-2024 18:59:47,not_set
+9238,1.72 Mbit/s,215271.8359,12-03-2024 20:16:56,not_set,0.02 Mbit/s,3008.4153,12-03-2024 19:24:56,not_set
+10355,< 0.01,989.35,12-03-2024 19:01:09,not_set,< 0.01,337.5188,12-03-2024 18:32:09,not_set
+10363,< 0.01,1002.9,12-03-2024 19:01:08,not_set,< 0.01,367.8333,12-03-2024 20:04:08,not_set
+8456,0.08 Mbit/s,9593.9177,12-03-2024 19:01:01,not_set,0.01 Mbit/s,1329.5235,12-03-2024 18:41:01,not_set
+8584,0.08 Mbit/s,9758.604,12-03-2024 19:01:04,not_set,0.01 Mbit/s,1339.7767,12-03-2024 18:59:04,not_set
+8481,< 0.01,837.0167,12-03-2024 18:09:44,not_set,< 0.01,663.2167,12-03-2024 20:10:44,not_set
+8581,< 0.01,818.6229,12-03-2024 19:50:06,not_set,< 0.01,677.1371,12-03-2024 19:07:05,not_set
+10881,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10881
+10879,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10879
+10877,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10877
+10875,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10875
+9160,0.36 Mbit/s,44399.067,12-03-2024 20:14:56,not_set,0.28 Mbit/s,35291.0955,12-03-2024 18:07:56,not_set
+9239,1.24 Mbit/s,154694.7193,12-03-2024 18:04:15,not_set,0.30 Mbit/s,37214.6642,12-03-2024 19:54:15,not_set
+8457,5.71 Mbit/s,713552.3833,12-03-2024 18:22:00,not_set,0.16 Mbit/s,19915.2333,12-03-2024 18:42:00,not_set
+8482,5.66 Mbit/s,707539.5601,12-03-2024 18:22:00,not_set,0.16 Mbit/s,19925.6376,12-03-2024 18:41:59,not_set
+10335,529 Mbit/s,66176702.6004,12-03-2024 19:28:51,not_set,2.43 Mbit/s,303514.3119,12-03-2024 19:06:51,not_set
+10341,522 Mbit/s,65226378.15,12-03-2024 19:28:35,not_set,2.42 Mbit/s,302204.9309,12-03-2024 19:06:35,not_set
+9161,0.05 Mbit/s,6358.85,12-03-2024 19:36:33,not_set,0.01 Mbit/s,1582.9219,12-03-2024 18:15:33,not_set
+9240,0.68 Mbit/s,84458.7608,12-03-2024 19:11:03,not_set,0.01 Mbit/s,1682.1137,12-03-2024 18:49:03,not_set
+8458,99 Mbit/s,12322847.5833,12-03-2024 18:44:59,not_set,0.34 Mbit/s,42519.4065,12-03-2024 19:26:59,not_set
+8483,106 Mbit/s,13222716.1113,12-03-2024 18:40:40,not_set,0.31 Mbit/s,38338.3731,12-03-2024 19:24:40,not_set
+10686,0 Mbit/s,0.0,12-03-2024 18:00:46,not_set,0 Mbit/s,0.0,12-03-2024 18:00:46,not_set
+9162,0.02 Mbit/s,2555.6019,12-03-2024 19:36:01,not_set,0.01 Mbit/s,1475.9287,12-03-2024 18:17:01,not_set
+9241,0.68 Mbit/s,85040.6797,12-03-2024 19:06:29,not_set,0.02 Mbit/s,1963.3923,12-03-2024 20:24:29,not_set
+10691,723 Mbit/s,90338520.4299,12-03-2024 19:29:30,not_set,58 Mbit/s,7277930.9397,12-03-2024 18:03:30,not_set
+10693,744 Mbit/s,93043829.9383,12-03-2024 19:27:56,not_set,61 Mbit/s,7678649.3084,12-03-2024 18:02:56,not_set
+10687,0 Mbit/s,0.0,12-03-2024 18:00:21,not_set,0 Mbit/s,0.0,12-03-2024 18:00:21,not_set
+10246,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10246
+10256,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10256
+10692,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10692
+9163,1.23 Mbit/s,153714.8408,12-03-2024 19:37:03,not_set,< 0.01,503.2451,12-03-2024 19:40:03,not_set
+9242,1.35 Mbit/s,168785.5498,12-03-2024 19:36:35,not_set,< 0.01,493.6677,12-03-2024 19:45:35,not_set
+9956,79 Mbit/s,9933514.0357,12-03-2024 18:01:43,not_set,1.66 Mbit/s,207847.7413,12-03-2024 20:19:43,not_set
+9164,0.43 Mbit/s,54346.7979,12-03-2024 20:14:53,not_set,0.33 Mbit/s,41200.3,12-03-2024 19:33:53,not_set
+9243,2.98 Mbit/s,372317.4145,12-03-2024 20:16:49,not_set,0.89 Mbit/s,111550.8582,12-03-2024 20:02:49,not_set
+9244,< 0.01,327.9093,12-03-2024 18:42:41,not_set,< 0.01,271.2356,12-03-2024 20:10:41,not_set
+8484,98 Mbit/s,12196914.5667,12-03-2024 18:46:10,not_set,0.52 Mbit/s,65154.8409,12-03-2024 19:27:10,not_set
+9165,162 Mbit/s,20261422.1593,12-03-2024 18:12:16,not_set,75 Mbit/s,9417740.0167,12-03-2024 18:00:16,not_set
+9245,"3,022 Mbit/s",377732885.5715,12-03-2024 20:06:51,not_set,4.72 Mbit/s,590453.9757,12-03-2024 19:13:51,not_set
+9166,231 Mbit/s,28899318.4123,12-03-2024 19:07:31,not_set,78 Mbit/s,9787046.9313,12-03-2024 20:21:32,not_set
+9246,"1,170 Mbit/s",146199998.4323,12-03-2024 20:11:48,not_set,157 Mbit/s,19563748.4505,12-03-2024 19:34:48,not_set
+9167,220 Mbit/s,27438808.4347,12-03-2024 19:06:57,not_set,2.93 Mbit/s,366749.6914,12-03-2024 20:16:57,not_set
+9247,"2,100 Mbit/s",262506976.3,12-03-2024 19:29:40,not_set,95 Mbit/s,11923797.35,12-03-2024 20:15:40,not_set
+9168,23 Mbit/s,2842752.2333,12-03-2024 18:21:29,not_set,1.04 Mbit/s,129651.5581,12-03-2024 18:14:29,not_set
+9248,"1,013 Mbit/s",126679052.465,12-03-2024 19:29:06,not_set,9.29 Mbit/s,1160966.161,12-03-2024 18:58:06,not_set
+9249,"2,980 Mbit/s",372511456.9333,12-03-2024 20:07:01,not_set,4.55 Mbit/s,568984.1193,12-03-2024 19:58:01,not_set
+9169,476 Mbit/s,59467261.8667,12-03-2024 18:14:12,not_set,17 Mbit/s,2093173.9587,12-03-2024 18:27:12,not_set
+9250,0.02 Mbit/s,2668.4465,12-03-2024 19:29:50,not_set,0.02 Mbit/s,2535.8239,12-03-2024 19:03:50,not_set
+9170,546 Mbit/s,68271584.6,12-03-2024 18:13:08,not_set,48 Mbit/s,6032514.7,12-03-2024 20:27:08,not_set
+9251,246 Mbit/s,30795754.1972,12-03-2024 20:12:07,not_set,102 Mbit/s,12749979.0632,12-03-2024 20:22:07,not_set
+9171,362 Mbit/s,45213858.2152,12-03-2024 19:10:17,not_set,55 Mbit/s,6826090.3635,12-03-2024 20:19:17,not_set
+9252,"1,017 Mbit/s",127070305.2193,12-03-2024 19:29:16,not_set,17 Mbit/s,2183295.7145,12-03-2024 18:57:16,not_set
+9172,416 Mbit/s,51999618.6364,12-03-2024 19:05:49,not_set,30 Mbit/s,3748206.9109,12-03-2024 19:38:50,not_set
+9253,73 Mbit/s,9167944.7408,12-03-2024 19:03:19,not_set,5.59 Mbit/s,698149.0088,12-03-2024 19:51:19,not_set
+9173,< 0.01,1122.5591,12-03-2024 18:28:42,not_set,< 0.01,1064.1428,12-03-2024 18:29:42,not_set
+9174,0.03 Mbit/s,3831.6456,12-03-2024 18:03:22,not_set,< 0.01,149.3667,12-03-2024 18:12:22,not_set
+9257,0.05 Mbit/s,6570.652,12-03-2024 19:10:57,not_set,< 0.01,150.4004,12-03-2024 18:28:57,not_set
+9258,1.31 Mbit/s,163445.5895,12-03-2024 18:04:37,not_set,0.50 Mbit/s,62484.413,12-03-2024 20:02:37,not_set
+9175,0.03 Mbit/s,3830.8385,12-03-2024 18:03:23,not_set,< 0.01,151.5516,12-03-2024 18:18:23,not_set
+9259,0.04 Mbit/s,5594.9,12-03-2024 20:05:53,not_set,< 0.01,64.8451,12-03-2024 19:20:53,not_set
+9176,0.03 Mbit/s,3743.0667,12-03-2024 18:25:28,not_set,< 0.01,64.8,12-03-2024 18:18:28,not_set
+9177,0.03 Mbit/s,3825.0292,12-03-2024 18:25:31,not_set,< 0.01,147.3754,12-03-2024 19:33:31,not_set
+9260,130 Mbit/s,16191655.7798,12-03-2024 20:16:23,not_set,< 0.01,70.0617,12-03-2024 19:58:23,not_set
+9261,2.11 Mbit/s,263664.2119,12-03-2024 20:06:42,not_set,< 0.01,154.004,12-03-2024 18:51:42,not_set
+9178,"1,534 Mbit/s",191733183.1833,12-03-2024 19:13:39,not_set,< 0.01,64.4,12-03-2024 18:45:39,not_set
+9262,< 0.01,189.5403,12-03-2024 19:10:02,not_set,< 0.01,147.4,12-03-2024 18:29:02,not_set
+9179,592 Mbit/s,74060723.2295,12-03-2024 18:48:06,not_set,< 0.01,149.8916,12-03-2024 18:58:06,not_set
+9263,41 Mbit/s,5124655.6871,12-03-2024 20:17:04,not_set,< 0.01,158.4597,12-03-2024 18:29:04,not_set
+9180,142 Mbit/s,17773355.8833,12-03-2024 19:34:42,not_set,< 0.01,66.4223,12-03-2024 19:12:42,not_set
+9264,0.07 Mbit/s,9257.6667,12-03-2024 18:09:00,not_set,< 0.01,65.8886,12-03-2024 18:57:59,not_set
+9181,"1,136 Mbit/s",142013930.9052,12-03-2024 18:49:51,not_set,< 0.01,150.4083,12-03-2024 18:26:51,not_set
+9265,0.04 Mbit/s,5597.9337,12-03-2024 19:10:00,not_set,< 0.01,65.8776,12-03-2024 18:58:00,not_set
+9182,< 0.01,110.8924,12-03-2024 18:09:38,not_set,< 0.01,68.7198,12-03-2024 20:04:38,not_set
+8429,98 Mbit/s,12274051.7994,12-03-2024 18:45:06,not_set,0.55 Mbit/s,69319.7601,12-03-2024 19:45:06,not_set
+10853,2.43 Mbit/s,303532.9445,12-03-2024 19:08:34,not_set,0.06 Mbit/s,7286.4319,12-03-2024 20:12:35,not_set
+10888,,,,,,,,No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID 10888
+10637,< 0.01,1216.9028,12-03-2024 19:44:21,not_set,< 0.01,1030.4203,12-03-2024 18:53:20,not_set
+10890,< 0.01,739.9233,12-03-2024 19:56:47,not_set,< 0.01,711.3705,12-03-2024 19:30:46,not_set
+7366,1.32 Mbit/s,164722.8962,12-03-2024 19:11:39,not_set,0.04 Mbit/s,4538.0651,12-03-2024 18:04:39,not_set
+7345,< 0.01,322.2685,12-03-2024 18:42:43,not_set,< 0.01,277.6239,12-03-2024 19:35:43,not_set
+6522,< 0.01,238.8898,12-03-2024 20:23:07,not_set,< 0.01,217.2667,12-03-2024 18:03:07,not_set
+5370,2.66 Mbit/s,332117.0972,12-03-2024 18:51:39,not_set,0.02 Mbit/s,1964.1321,12-03-2024 18:33:39,not_set
+5374,< 0.01,549.1918,12-03-2024 19:42:15,not_set,< 0.01,421.8688,12-03-2024 20:03:15,not_set
+10513,0.01 Mbit/s,1366.7834,12-03-2024 18:10:51,not_set,< 0.01,56.6461,12-03-2024 19:27:51,not_set
+10855,2.43 Mbit/s,303414.3167,12-03-2024 19:08:24,not_set,0.06 Mbit/s,6927.6017,12-03-2024 20:12:25,not_set
+10540,3.74 Mbit/s,467647.98,12-03-2024 20:07:38,not_set,3.01 Mbit/s,375708.985,12-03-2024 18:26:38,not_set
+10526,1.69 Mbit/s,210691.7612,12-03-2024 19:03:33,not_set,1.43 Mbit/s,179140.9106,12-03-2024 20:13:33,not_set
+7387,< 0.01,135.3841,12-03-2024 19:11:50,not_set,< 0.01,111.7755,12-03-2024 19:12:50,not_set
+7289,< 0.01,127.6085,12-03-2024 19:48:01,not_set,< 0.01,109.9369,12-03-2024 19:19:56,not_set
+6540,< 0.01,109.7333,12-03-2024 19:04:52,not_set,< 0.01,96.1667,12-03-2024 18:18:52,not_set
+6547,< 0.01,108.5667,12-03-2024 18:31:43,not_set,< 0.01,96.4494,12-03-2024 18:55:43,not_set
+2606,< 0.01,139.2565,12-03-2024 19:58:13,not_set,< 0.01,125.2084,12-03-2024 20:19:13,not_set
+2601,< 0.01,134.4948,12-03-2024 18:48:13,not_set,< 0.01,126.9955,12-03-2024 20:05:13,not_set
