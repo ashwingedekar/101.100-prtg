@@ -31,6 +31,10 @@ with open("min_max_flags.txt", "r") as file:
                 flags[key] = value
 
 # Construct API endpoints for upper and lower error and warning limits for all IDs
+        
+
+
+        
 api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
 api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
 api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
@@ -94,7 +98,6 @@ progress_bar = tqdm(total=len(id_values), desc="Fetching limits for each ID")
 
 # Make the API requests for each ID to get the limits
 for id_value in id_values:
-    id_data = {}
     response_upper_warning = requests.get(f"{api_endpoint_upper_warning}&id={id_value}")
     response_upper_error = requests.get(f"{api_endpoint_upper_error}&id={id_value}")
     response_lower_warning = requests.get(f"{api_endpoint_lower_warning}&id={id_value}")
@@ -115,16 +118,6 @@ for id_value in id_values:
     response_error_out_upper_error = requests.get(f"{error_out_api_endpoint_upper_error}&id={id_value}")
     response_error_out_lower_warning = requests.get(f"{error_out_api_endpoint_lower_warning}&id={id_value}")
     response_error_out_lower_error = requests.get(f"{error_out_api_endpoint_lower_error}&id={id_value}")
-
-    device_name_endpoint = f'https://{server_address}/api/getsensordetails.json?id={id_value}&username=Ashwin.Gedekar&passhash=1132296586'
-    device_name_response = requests.get(device_name_endpoint)
-    if device_name_response.status_code == 200:
-        device_name_json = device_name_response.json()
-        parent_device_name = device_name_json["sensordata"]["parentdevicename"]
-        id_data["Device Name"] = parent_device_name
-    else:
-        id_data["Device Name"] = "Device name not available"
-
     
     # Traffic total 
     if response_upper_warning.status_code == 200:
@@ -241,7 +234,7 @@ for id_value in id_values:
         if match_error_out_lower_error:
             error_out_lower_error_limits[id_value] = match_error_out_lower_error.group(1)
 
-    
+
     
     # Update the progress bar
     progress_bar.update(1)
@@ -378,13 +371,18 @@ for id_value in tqdm(id_values, desc="Processing IDs"):  # Use tqdm for progress
 # Create DataFrame from data_list
 df_output = pd.DataFrame(data_list)
 
+# Iterate over each ID to get the device name
+# Iterate over each ID to get the device name
+# Iterate over each ID to get the device name
+
+
+
+
 # Display output in the terminal
 for data_dict in data_list:
     print(f"ID {data_dict['ID']}:")
-    
     print('-' * (len(f"ID {data_dict['ID']}:")))
     print(f"MAX SPEED: {data_dict.get('MAX SPEED', '< 0.01')}")
-    print(f"Device Name: {parent_device_name}")
    # print(f"MAX SPEED RAW: {data_dict.get('MAX SPEED RAW', '< 0.01')}")
    # print(f"MAX SPEED DATE TIME: {data_dict.get('MAX SPEED DATE TIME', '< 0.01')}")
    # print(f"THRESHOLD MESSAGE (MAX): {data_dict.get('THRESHOLD MESSAGE (MAX)', '< 0.01')}")

@@ -36,32 +36,109 @@ api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?
 api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
 api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
 
+discard_in_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+discard_in_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+discard_in_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+discard_in_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+
+discard_out_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+discard_out_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+discard_out_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+discard_out_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+
+error_in_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+error_in_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+error_in_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+error_in_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+
+error_out_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+error_out_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+error_out_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+error_out_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+
+
+
 # Create dictionaries to store upper and lower error and warning limits for each ID
 upper_warning_limits = {}
 upper_error_limits = {}
 lower_warning_limits = {}
 lower_error_limits = {}
 
+discard_in_upper_warning_limits = {}
+discard_in_upper_error_limits = {}
+discard_in_lower_warning_limits = {}
+discard_in_lower_error_limits = {}
+
+discard_out_upper_warning_limits = {}
+discard_out_upper_error_limits = {}
+discard_out_lower_warning_limits = {}
+discard_out_lower_error_limits = {}
+
+error_in_upper_warning_limits = {}
+error_in_upper_error_limits = {}
+error_in_lower_warning_limits = {}
+error_in_lower_error_limits = {}
+
+error_out_upper_warning_limits = {}
+error_out_upper_error_limits = {}
+error_out_lower_warning_limits = {}
+error_out_lower_error_limits = {}
+
+
+
+#https://tp-prtg-101-100.comtelindia.com:10443/api/getobjectproperty.htm?id=10705&subtype=channel&subid=12&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586
+
+
 # Create tqdm instance for progress indication
 progress_bar = tqdm(total=len(id_values), desc="Fetching limits for each ID")
 
 # Make the API requests for each ID to get the limits
 for id_value in id_values:
+    id_data = {}
     response_upper_warning = requests.get(f"{api_endpoint_upper_warning}&id={id_value}")
     response_upper_error = requests.get(f"{api_endpoint_upper_error}&id={id_value}")
     response_lower_warning = requests.get(f"{api_endpoint_lower_warning}&id={id_value}")
     response_lower_error = requests.get(f"{api_endpoint_lower_error}&id={id_value}")
+    response_discard_in_upper_warning = requests.get(f"{discard_in_api_endpoint_upper_warning}&id={id_value}")
+    response_discard_in_upper_error = requests.get(f"{discard_in_api_endpoint_upper_error}&id={id_value}")
+    response_discard_in_lower_warning = requests.get(f"{discard_in_api_endpoint_lower_warning}&id={id_value}")
+    response_discard_in_lower_error = requests.get(f"{discard_in_api_endpoint_lower_error}&id={id_value}")
+    response_discard_out_upper_warning = requests.get(f"{discard_out_api_endpoint_upper_warning}&id={id_value}")
+    response_discard_out_upper_error = requests.get(f"{discard_out_api_endpoint_upper_error}&id={id_value}")
+    response_discard_out_lower_warning = requests.get(f"{discard_out_api_endpoint_lower_warning}&id={id_value}")
+    response_discard_out_lower_error = requests.get(f"{discard_out_api_endpoint_lower_error}&id={id_value}")
+    response_error_in_upper_warning = requests.get(f"{error_in_api_endpoint_upper_warning}&id={id_value}")
+    response_error_in_upper_error = requests.get(f"{error_in_api_endpoint_upper_error}&id={id_value}")
+    response_error_in_lower_warning = requests.get(f"{error_in_api_endpoint_lower_warning}&id={id_value}")
+    response_error_in_lower_error = requests.get(f"{error_in_api_endpoint_lower_error}&id={id_value}")
+    response_error_out_upper_warning = requests.get(f"{error_out_api_endpoint_upper_warning}&id={id_value}")
+    response_error_out_upper_error = requests.get(f"{error_out_api_endpoint_upper_error}&id={id_value}")
+    response_error_out_lower_warning = requests.get(f"{error_out_api_endpoint_lower_warning}&id={id_value}")
+    response_error_out_lower_error = requests.get(f"{error_out_api_endpoint_lower_error}&id={id_value}")
 
-    # Check if the request was successful (status code 200) and parse the response
+    device_name_endpoint = f'https://{server_address}/api/getsensordetails.json?id={id_value}&username=Ashwin.Gedekar&passhash=1132296586'
+    device_name_response = requests.get(device_name_endpoint)
+    if device_name_response.status_code == 200:
+        device_name_json = device_name_response.json()
+        parent_device_name = device_name_json["sensordata"]["parentdevicename"]
+        id_data["Device Name"] = parent_device_name
+    else:
+        id_data["Device Name"] = "Device name not available"
+
+    
+    # Traffic total 
     if response_upper_warning.status_code == 200:
         match_upper_warning = re.search(r'<result>(\d+)</result>', response_upper_warning.text)
         if match_upper_warning:
             upper_warning_limits[id_value] = int(match_upper_warning.group(1)) * 8 / 1000000  # Convert bytes to megabits
+    
+
 
     if response_upper_error.status_code == 200:
-        match_upper_error = re.search(r'<result>(\d+)</result>', response_upper_error.text)
-        if match_upper_error:
-            upper_error_limits[id_value] = int(match_upper_error.group(1)) * 8 / 1000000  # Convert bytes to megabits
+       match_upper_error = re.search(r'<result>(\d+)</result>', response_upper_error.text)
+       if match_upper_error:
+          upper_error_limits[id_value] = int(match_upper_error.group(1)) * 8 / 1000000  # Convert bytes to megabits
+    
 
     if response_lower_warning.status_code == 200:
         match_lower_warning = re.search(r'<result>(\d+)</result>', response_lower_warning.text)
@@ -73,8 +150,102 @@ for id_value in id_values:
         if match_lower_error:
             lower_error_limits[id_value] = int(match_lower_error.group(1)) * 8 / 1000000  # Convert bytes to megabits
     
+     # discord in
+    if response_discard_in_upper_warning.status_code == 200:
+        match_discard_in_upper_warning = re.search(r'<result>(\d+)</result>', response_discard_in_upper_warning.text)
+        if match_discard_in_upper_warning:
+            discard_in_upper_warning_limits[id_value] = match_discard_in_upper_warning.group(1) 
+
+    if response_discard_in_upper_error.status_code == 200:
+       match_discard_in_upper_error = re.search(r'<result>(\d+)</result>', response_discard_in_upper_error.text)
+       if match_discard_in_upper_error:
+        discard_in_upper_error_limits[id_value] = match_discard_in_upper_error.group(1)
+
+
+    if response_discard_in_lower_warning.status_code == 200:
+        match_discard_in_lower_warning = re.search(r'<result>(\d+)</result>', response_discard_in_lower_warning.text)
+        if match_discard_in_lower_warning:
+            discard_in_lower_warning_limits[id_value] = match_discard_in_lower_warning.group(1)  
+
+    if response_discard_in_lower_error.status_code == 200:
+        match_discard_in_lower_error = re.search(r'<result>(\d+)</result>', response_discard_in_lower_error.text)
+        if match_discard_in_lower_error:
+            discard_in_lower_error_limits[id_value] = match_discard_in_lower_error.group(1)
+    
+   # discord out
+    if response_discard_out_upper_warning.status_code == 200:
+        match_discard_out_upper_warning = re.search(r'<result>(\d+)</result>', response_discard_out_upper_warning.text)
+        if match_discard_out_upper_warning:
+            discard_out_upper_warning_limits[id_value] = match_discard_out_upper_warning.group(1) 
+
+    if response_discard_out_upper_error.status_code == 200:
+       match_discard_out_upper_error = re.search(r'<result>(\d+)</result>', response_discard_out_upper_error.text)
+       if match_discard_out_upper_error:
+        discard_out_upper_error_limits[id_value] = match_discard_out_upper_error.group(1)
+
+
+    if response_discard_out_lower_warning.status_code == 200:
+        match_discard_out_lower_warning = re.search(r'<result>(\d+)</result>', response_discard_out_lower_warning.text)
+        if match_discard_out_lower_warning:
+            discard_out_lower_warning_limits[id_value] = match_discard_out_lower_warning.group(1)  
+
+    if response_discard_out_lower_error.status_code == 200:
+        match_discard_out_lower_error = re.search(r'<result>(\d+)</result>', response_discard_out_lower_error.text)
+        if match_discard_out_lower_error:
+            discard_out_lower_error_limits[id_value] = match_discard_out_lower_error.group(1)
+
+    # Error IN
+    
+    if response_error_in_upper_warning.status_code == 200:
+        match_error_in_upper_warning = re.search(r'<result>(\d+)</result>', response_error_in_upper_warning.text)
+        if match_error_in_upper_warning:
+            error_in_upper_warning_limits[id_value] = match_error_in_upper_warning.group(1) 
+
+    if response_error_in_upper_error.status_code == 200:
+       match_error_in_upper_error = re.search(r'<result>(\d+)</result>', response_error_in_upper_error.text)
+       if match_error_in_upper_error:
+        error_in_upper_error_limits[id_value] = match_error_in_upper_error.group(1)
+
+
+    if response_error_in_lower_warning.status_code == 200:
+        match_error_in_lower_warning = re.search(r'<result>(\d+)</result>', response_error_in_lower_warning.text)
+        if match_error_in_lower_warning:
+            error_in_lower_warning_limits[id_value] = match_error_in_lower_warning.group(1)  
+
+    if response_error_in_lower_error.status_code == 200:
+        match_error_in_lower_error = re.search(r'<result>(\d+)</result>', response_error_in_lower_error.text)
+        if match_error_in_lower_error:
+            error_in_lower_error_limits[id_value] = match_error_in_lower_error.group(1)
+    
+
+    # Error OUT 
+    
+    if response_error_out_upper_warning.status_code == 200:
+        match_error_out_upper_warning = re.search(r'<result>(\d+)</result>', response_error_out_upper_warning.text)
+        if match_error_out_upper_warning:
+            error_out_upper_warning_limits[id_value] = match_error_out_upper_warning.group(1) 
+
+    if response_error_out_upper_error.status_code == 200:
+       match_error_out_upper_error = re.search(r'<result>(\d+)</result>', response_error_out_upper_error.text)
+       if match_error_out_upper_error:
+        error_out_upper_error_limits[id_value] = match_error_out_upper_error.group(1)
+
+
+    if response_error_out_lower_warning.status_code == 200:
+        match_error_out_lower_warning = re.search(r'<result>(\d+)</result>', response_error_out_lower_warning.text)
+        if match_error_out_lower_warning:
+            error_out_lower_warning_limits[id_value] = match_error_out_lower_warning.group(1)  
+
+    if response_error_out_lower_error.status_code == 200:
+        match_error_out_lower_error = re.search(r'<result>(\d+)</result>', response_error_out_lower_error.text)
+        if match_error_out_lower_error:
+            error_out_lower_error_limits[id_value] = match_error_out_lower_error.group(1)
+
+    
+    
     # Update the progress bar
     progress_bar.update(1)
+
 
 # Close the progress bar
 progress_bar.close()
@@ -97,11 +268,31 @@ for id_value in tqdm(id_values, desc="Processing IDs"):  # Use tqdm for progress
             "MAX SPEED": None,
             "MAX SPEED RAW": None,
             "MAX SPEED DATE TIME": None,
-            "THRESHOLD MESSAGE (MAX)": None,
             "MIN SPEED": None,
             "MIN SPEED RAW": None,
             "MIN SPEED DATE TIME": None,
-            "THRESHOLD MESSAGE (MIN)": None
+          #  "THRESHOLD MESSAGE (MAX)": None,
+          #  "THRESHOLD MESSAGE (MIN)": None,
+          #  "DISCARD IN UPPER ERROR LIMIT": discard_in_upper_error_limits.get(id_value, "not_set"),
+          #  "DISCARD IN LOWER ERROR LIMIT": discard_in_lower_error_limits.get(id_value, "not_set"),
+          #  "DISCARD IN UPPER WARNING LIMIT": discard_in_upper_warning_limits.get(id_value, "not_set"),
+          #  "DISCARD IN LOWER WARNING LIMIT": discard_in_lower_warning_limits.get(id_value, "not_set"),
+          #  "DISCARD OUT UPPER ERROR LIMIT": discard_out_upper_error_limits.get(id_value, "not_set"),
+          #  "DISCARD OUT LOWER ERROR LIMIT": discard_out_lower_error_limits.get(id_value, "not_set"),
+          #  "DISCARD OUT UPPER WARNING LIMIT": discard_out_upper_warning_limits.get(id_value, "not_set"),
+          #  "DISCARD OUT LOWER WARNING LIMIT": discard_out_lower_warning_limits.get(id_value, "not_set"),
+            "ERROR IN UPPER ERROR LIMIT": error_in_upper_error_limits.get(id_value, "not_set"),
+            "ERROR IN LOWER ERROR LIMIT": error_in_lower_error_limits.get(id_value, "not_set"),
+            "ERROR IN UPPER WARNING LIMIT": error_in_upper_warning_limits.get(id_value, "not_set"),
+            "ERROR IN LOWER WARNING LIMIT": error_in_lower_warning_limits.get(id_value, "not_set"),
+            "ERROR OUT UPPER ERROR LIMIT": error_out_upper_error_limits.get(id_value, "not_set"),
+            "ERROR OUT LOWER ERROR LIMIT": error_out_lower_error_limits.get(id_value, "not_set"),
+            "ERROR OUT UPPER WARNING LIMIT": error_out_upper_warning_limits.get(id_value, "not_set"),
+            "ERROR OUT LOWER WARNING LIMIT": error_out_lower_warning_limits.get(id_value, "not_set"),
+            "TRAFFIC TOTAL UPPER ERROR LIMIT": upper_error_limits.get(id_value, "not_set"),
+            "TRAFFIC TOTAL LOWER ERROR LIMIT": lower_error_limits.get(id_value, "not_set"),
+            "TRAFFIC TOTAL UPPER WARNING LIMIT": upper_warning_limits.get(id_value, "not_set"),
+            "TRAFFIC TOTAL LOWER WARNING LIMIT": lower_warning_limits.get(id_value, "not_set")
         }
 
         try:
@@ -111,12 +302,12 @@ for id_value in tqdm(id_values, desc="Processing IDs"):  # Use tqdm for progress
             # Clean up the column names (remove leading and trailing spaces)
             df.columns = df.columns.str.strip()
 
-            # Extract specified columns along with "Date Time"
-            selected_columns = ["Date Time", "Traffic Total (Speed)", "Traffic Total (Speed)(RAW)"]
+            # Extract specified columns along with "Date Time", "Traffic Total (Speed)", "Traffic Total (Speed)(RAW)", "Discards In (Speed)", "Discards Out (Speed)", "Errors In (Speed)", and "Errors Out (Speed)"
+            selected_columns = ["Date Time", "Traffic Total (Speed)", "Traffic Total (Speed)(RAW)", "Discards In (Speed)", "Discards Out (Speed)", "Errors In (Speed)", "Errors Out (Speed)"]
             selected_data = df[selected_columns]
 
-            # Convert "Traffic Total (Speed)(RAW)" to numeric type
-            selected_data.loc[:, "Traffic Total (Speed)(RAW)"] = pd.to_numeric(selected_data["Traffic Total (Speed)(RAW)"], errors='coerce')
+            # Convert selected columns to numeric type
+            selected_data.loc[:, selected_columns[2:]] = selected_data[selected_columns[2:]].apply(pd.to_numeric, errors='coerce')
 
             # Drop rows with NaN values in "Traffic Total (Speed)(RAW)"
             selected_data = selected_data.dropna(subset=["Traffic Total (Speed)(RAW)"])
@@ -172,6 +363,9 @@ for id_value in tqdm(id_values, desc="Processing IDs"):  # Use tqdm for progress
                 else:
                     id_data["THRESHOLD MESSAGE (MIN)"] = f"not_set"
 
+                # Get values for "Discards In (Speed)", "Discards Out (Speed)", "Errors In (Speed)", and "Errors Out (Speed)"
+                
+
             else:
                 id_data["THRESHOLD MESSAGE (MIN)"] = f"No non-NaN values found in 'Traffic Total (Speed)(RAW)' for ID {id_value}"
 
@@ -187,15 +381,37 @@ df_output = pd.DataFrame(data_list)
 # Display output in the terminal
 for data_dict in data_list:
     print(f"ID {data_dict['ID']}:")
+    
     print('-' * (len(f"ID {data_dict['ID']}:")))
     print(f"MAX SPEED: {data_dict.get('MAX SPEED', '< 0.01')}")
-    print(f"MAX SPEED RAW: {data_dict.get('MAX SPEED RAW', '< 0.01')}")
-    print(f"MAX SPEED DATE TIME: {data_dict.get('MAX SPEED DATE TIME', '< 0.01')}")
-    print(f"THRESHOLD MESSAGE (MAX): {data_dict.get('THRESHOLD MESSAGE (MAX)', '< 0.01')}")
+    print(f"Device Name: {parent_device_name}")
+   # print(f"MAX SPEED RAW: {data_dict.get('MAX SPEED RAW', '< 0.01')}")
+   # print(f"MAX SPEED DATE TIME: {data_dict.get('MAX SPEED DATE TIME', '< 0.01')}")
+   # print(f"THRESHOLD MESSAGE (MAX): {data_dict.get('THRESHOLD MESSAGE (MAX)', '< 0.01')}")
     print(f"MIN SPEED: {data_dict.get('MIN SPEED', '< 0.01')}")
-    print(f"MIN SPEED RAW: {data_dict.get('MIN SPEED RAW', '< 0.01')}")
-    print(f"MIN SPEED DATE TIME: {data_dict.get('MIN SPEED DATE TIME', '< 0.01')}")
-    print(f"THRESHOLD MESSAGE (MIN): {data_dict.get('THRESHOLD MESSAGE (MIN)', '< 0.01')}")
+   # print(f"MIN SPEED RAW: {data_dict.get('MIN SPEED RAW', '< 0.01')}")
+   # print(f"MIN SPEED DATE TIME: {data_dict.get('MIN SPEED DATE TIME', '< 0.01')}")
+   # print(f"THRESHOLD MESSAGE (MIN): {data_dict.get('THRESHOLD MESSAGE (MIN)', '< 0.01')}")
+   # print(f"DISCARD IN UPPER ERROR LIMIT: {data_dict.get('DISCARD IN UPPER ERROR LIMIT', 'not_set')}")
+   # print(f"DISCARD IN LOWER ERROR LIMIT: {data_dict.get('DISCARD IN LOWER ERROR LIMIT', 'not_set')}")
+   # print(f"DISCARD IN UPPER WARNING LIMIT: {data_dict.get('DISCARD IN UPPER WARNING LIMIT', 'not_set')}")
+   # print(f"DISCARD IN LOWER WARNING LIMIT: {data_dict.get('DISCARD IN LOWER WARNING LIMIT', 'not_set')}")
+   # print(f"DISCARD OUT UPPER ERROR LIMIT: {data_dict.get('DISCARD OUT UPPER ERROR LIMIT', 'not_set')}")
+   # print(f"DISCARD OUT LOWER ERROR LIMIT: {data_dict.get('DISCARD OUT LOWER ERROR LIMIT', 'not_set')}")
+   # print(f"DISCARD OUT UPPER WARNING LIMIT: {data_dict.get('DISCARD OUT UPPER WARNING LIMIT', 'not_set')}")
+   # print(f"DISCARD OUT LOWER WARNING LIMIT: {data_dict.get('DISCARD OUT LOWER WARNING LIMIT', 'not_set')}")
+    print(f"ERROR IN UPPER ERROR LIMIT: {data_dict.get('ERROR IN UPPER ERROR LIMIT', 'not_set')}")
+    print(f"ERROR IN LOWER ERROR LIMIT: {data_dict.get('ERROR IN LOWER ERROR LIMIT', 'not_set')}")
+    print(f"ERROR IN UPPER WARNING LIMIT: {data_dict.get('ERROR IN UPPER WARNING LIMIT', 'not_set')}")
+    print(f"ERROR IN LOWER WARNING LIMIT: {data_dict.get('ERROR IN LOWER WARNING LIMIT', 'not_set')}")
+    print(f"ERROR OUT UPPER ERROR LIMIT: {data_dict.get('ERROR OUT UPPER ERROR LIMIT', 'not_set')}")
+    print(f"ERROR OUT LOWER ERROR LIMIT: {data_dict.get('ERROR OUT LOWER ERROR LIMIT', 'not_set')}")
+    print(f"ERROR OUT UPPER WARNING LIMIT: {data_dict.get('ERROR OUT UPPER WARNING LIMIT', 'not_set')}")
+    print(f"ERROR OUT LOWER WARNING LIMIT: {data_dict.get('ERROR OUT LOWER WARNING LIMIT', 'not_set')}")
+    print(f"TRAFFIC TOTAL UPPER ERROR LIMIT: {data_dict.get('TRAFFIC TOTAL UPPER ERROR LIMIT', 'not_set')}")
+    print(f"TRAFFIC TOTAL LOWER ERROR LIMIT: {data_dict.get('TRAFFIC TOTAL LOWER ERROR LIMIT', 'not_set')}")
+    print(f"TRAFFIC TOTAL UPPER WARNING LIMIT: {data_dict.get('TRAFFIC TOTAL UPPER WARNING LIMIT', 'not_set')}")
+    print(f"TRAFFIC TOTAL LOWER WARNING LIMIT: {data_dict.get('TRAFFIC TOTAL LOWER WARNING LIMIT', 'not_set')}")
     print("#" * 55)
 
 # Create the output directory if it doesn't exist
