@@ -30,7 +30,7 @@ with open("min_max_flags.txt", "r") as file:
             else:
                 flags[key] = value
 
-# Construct API endpoints for upper and lower error and warning limits for all IDs
+# Construct API endpoints for upper and lower error and warning limits for all IDs 
 api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
 api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
 api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
