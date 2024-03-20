@@ -305,7 +305,7 @@ for id_value in tqdm(id_values, desc="Processing IDs"):  # Use tqdm for progress
             df.columns = df.columns.str.strip()
 
             # Extract specified columns along with "Date Time", "Traffic Total (Speed)", "Traffic Total (Speed)(RAW)", "Discards In (Speed)", "Discards Out (Speed)", "Errors In (Speed)", and "Errors Out (Speed)"
-            selected_columns = ["Date Time", "Traffic Total (Speed)", "Traffic Total (Speed)(RAW)", "Discards In (Speed)", "Discards Out (Speed)", "Errors In (Speed)", "Errors Out (Speed)"]
+            selected_columns = ["Date Time", "Traffic Total (Speed)", "Traffic Total (Speed)(RAW)"]
             selected_data = df[selected_columns]
 
             # Convert selected columns to numeric type

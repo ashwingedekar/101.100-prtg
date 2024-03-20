@@ -1,17 +1,17 @@
-# Initialize an empty dictionary to store key-value pairs
-server_parameters = {}
+data_dict = {}
 
-# Open the file "server_address.txt" in read mode
-with open("server_address.txt", "r") as file:
-    
+# Open the file containing the key-value pairs
+file_path = 'your_file.txt'  # Specify the path to your file
+with open(file_path, 'r') as file:
     # Iterate over each line in the file
     for line in file:
-        
-        # Remove leading and trailing whitespace from the line
-        line = line.strip()
-        
-        # Split the line into key and value using the "=" character as separator
-        key, value = line.split("=")
-        
-        # Add the key-value pair to the server_parameters dictionary
-        server_parameters[key] = value
+        # Split each line by '=' to separate key and value
+        parts = line.strip().split('=')
+        # Check if the line is properly formatted with key and value
+        if len(parts) == 2:
+            key, value = parts
+            # Add the key-value pair to the dictionary
+            data_dict[key.strip()] = value.strip()
+
+# Print the dictionary to verify
+print(data_dict)

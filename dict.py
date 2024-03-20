@@ -17,4 +17,3 @@ with open("min_max_flags.txt", "r") as file:
             key, value = line.split("=")
             
             flags[key] = value
-print(flags)
