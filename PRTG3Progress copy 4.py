@@ -14,6 +14,8 @@ with open("server_address.txt", "r") as file:
     server_parameters = dict(line.strip().split("=") for line in file)
 
 server_address = server_parameters.get("server")
+user_name = server_parameters.get("username")
+password = server_parameters.get("passhash")
 
 # Read flags from the "min_max_flags.txt" file
 flags = {}
@@ -31,30 +33,30 @@ with open("min_max_flags.txt", "r") as file:
                 flags[key] = value
 
 # Construct API endpoints for upper and lower error and warning limits for all IDs
-api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitmaxwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitmaxerror&show=nohtmlencode&username={user_name}&passhash={password}'
+api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitminwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=-1&name=limitminerror&show=nohtmlencode&username={user_name}&passhash={password}'
 
-discard_in_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-discard_in_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-discard_in_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-discard_in_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+discard_in_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitmaxwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+discard_in_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitmaxerror&show=nohtmlencode&username={user_name}&passhash={password}'
+discard_in_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitminwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+discard_in_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=12&name=limitminerror&show=nohtmlencode&username={user_name}&passhash={password}'
 
-discard_out_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-discard_out_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-discard_out_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-discard_out_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+discard_out_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitmaxwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+discard_out_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitmaxerror&show=nohtmlencode&username={user_name}&passhash={password}'
+discard_out_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitminwarning&show=nohtmlencode&username={user_name}&passhash=1{password}'
+discard_out_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=13&name=limitminerror&show=nohtmlencode&username={user_name}&passhash={password}'
 
-error_in_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-error_in_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-error_in_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-error_in_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+error_in_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitmaxwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+error_in_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitmaxerror&show=nohtmlencode&username={user_name}&passhash={password}'
+error_in_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitminwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+error_in_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=10&name=limitminerror&show=nohtmlencode&username={user_name}&passhash={password}'
 
-error_out_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitmaxwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-error_out_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitmaxerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-error_out_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitminwarning&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
-error_out_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitminerror&show=nohtmlencode&username=Ashwin.Gedekar&passhash=1132296586'
+error_out_api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitmaxwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+error_out_api_endpoint_upper_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitmaxerror&show=nohtmlencode&username={user_name}&passhash={password}'
+error_out_api_endpoint_lower_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitminwarning&show=nohtmlencode&username={user_name}&passhash={password}'
+error_out_api_endpoint_lower_error = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&subid=11&name=limitminerror&show=nohtmlencode&username={user_name}&passhash={password}'
 
 
 
