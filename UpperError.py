@@ -8,20 +8,19 @@ import re
 from tqdm import tqdm  # Import tqdm library
 import io
 
-
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-# Read server address from the configuration file
+# Load server parameters from file
 with open("server_address.txt", "r") as file:
     server_parameters = dict(line.strip().split("=") for line in file)
 
 server_address = server_parameters.get("server")
 
-# Read flags from the configuration file
 flags = {}
 id_prefix = 'id'
 id_values = []
 
+# Load flags from file
 with open("min_max_flags.txt", "r") as file:
     for line in file:
         line = line.strip()
@@ -32,60 +31,52 @@ with open("min_max_flags.txt", "r") as file:
             else:
                 flags[key] = value
 
-# Initialize dictionary to store upper warning limits
 upper_warning_limits = {}
 
-# Iterate over each ID value
-for id_value in tqdm(id_values, desc="Processing IDs"):  # Use tqdm for progress bar
-    # Construct the API endpoint URL to get upper warning limit
-    api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&id={id_value}&subid=-1&name=limitmaxwarning&show=nohtmlencode&username={server_parameters.get("username")}&passhash={server_parameters.get("passhash")}'
-    
-    # Make the API request to get upper warning limit
+# Retrieve upper warning limits
+for id_value in tqdm(id_values, desc="Processing IDs"):  
+    api_endpoint_upper_warning = f'https://{server_address}/api/getobjectproperty.htm?subtype=channel&id={id_value}&subid=-1&name=limitmaxerror&show=nohtmlencode&username={server_parameters.get("username")}&passhash={server_parameters.get("passhash")}'
     response_upper_warning = requests.get(api_endpoint_upper_warning)
-    
-    # Check if the request was successful
     if response_upper_warning.status_code == 200:
-        # Extract upper warning limit from the response
         match_upper_warning = re.search(r'<result>(\d+)</result>', response_upper_warning.text)
         if match_upper_warning:
-            # Convert bytes to megabits and store in the dictionary
             upper_warning_limits[id_value] = float(match_upper_warning.group(1)) * 8 / 1000000  
 
 # Iterate over each ID value
-for id_value in tqdm(id_values, desc="Processing IDs"):  # Use tqdm for progress bar
-    # Construct the API endpoint URL to get historic data
+for id_value in tqdm(id_values, desc="Processing IDs"):  
     api_endpoint = f'https://{server_address}/api/historicdata.csv?id={id_value}&avg={flags.get("avg")}&sdate={flags.get("sdate")}&edate={flags.get("edate")}&username={server_parameters.get("username")}&passhash={server_parameters.get("passhash")}'
-
-    # Make the API request to get historic data
     response = requests.get(api_endpoint)
-
-    # Read the CSV data into a DataFrame
     df = pd.read_csv(io.StringIO(response.text))
-
-    # Extract numerical values from "Traffic Total (Speed)" column
-    selected_data = df["Traffic Total (Speed)"].str.extract(r'(\d+\.\d+)').astype(float)
-    
-    # Check if cmp is equal to 1 in the min_max_flags.txt file
+    df['Traffic Total (Speed)'] = df['Traffic Total (Speed)'].str.extract(r'(\d+\.*\d*)').astype(float)
+    selected_data = df["Traffic Total (Speed)"]
+    selected_data.to_csv("abcd.csv", index=False)
     if flags.get("cmp") == '1':
-        # Filter rows where "Traffic Total (Speed)" exceeds the upper warning limit
-        filtered_data = selected_data[selected_data[0] > upper_warning_limits.get(id_value, 0)]
-
-        # If there are any rows matching the condition
+        filtered_data = selected_data[selected_data > upper_warning_limits.get(id_value, 0)]
         if not filtered_data.empty:
-            # Construct the API endpoint URL to get device name
             device_name_endpoint = f'https://{server_address}/api/getsensordetails.json?id={id_value}&username={server_parameters.get("username")}&passhash={server_parameters.get("passhash")}'
-            
-            # Make the API request to get device name
             device_name_response = requests.get(device_name_endpoint)
-            
-            # Check if the request was successful
             if device_name_response.status_code == 200:
-                # Extract device name from the response
                 device_name_json = device_name_response.json()
                 parent_device_name = device_name_json["sensordata"]["parentdevicename"]
             else:
                 parent_device_name = "Device name not available"
-                
-            # Print corresponding ID, date, and traffic total
-            for index, value in filtered_data.iterrows():
-                print(f"ID: {id_value}, Device Name: {parent_device_name}, Date: {df.loc[index, 'Date Time']}, Traffic Total: {df.loc[index, 'Traffic Total (Speed)']}")
+            for index, value in filtered_data.items():
+                print(f"ID: {id_value}, Device Name: {parent_device_name}, Date: {df.loc[index, 'Date Time']}, Traffic Total: {value}")
+            # Save the output to Excel with current date and time as filename
+            output_data = []
+            for index, value in filtered_data.items():
+                output_data.append({
+                    "ID": id_value,
+                    "Device Name": parent_device_name,
+                    "Date": df.loc[index, 'Date Time'],
+                    "Traffic Total": value
+                })
+            output_df = pd.DataFrame(output_data)
+            # Generate filename with current date and time
+            current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+            output_filename = f"output_{current_datetime}.xlsx"
+            output_df.to_excel(output_filename, index=False)
+        else:
+            print(f"No data found exceeding the upper warning limit for ID: {id_value}")
+    else:
+        print(f"No data found exceeding the upper warning limit for ID: {id_value}")
