@@ -42,14 +42,22 @@ for id_value in tqdm(id_values, desc="Processing IDs"):
         if match_upper_warning:
             upper_warning_limits[id_value] = float(match_upper_warning.group(1)) * 8 / 1000000  
 
+# Container to hold data for all IDs
+output_data = []
+
 # Iterate over each ID value
 for id_value in tqdm(id_values, desc="Processing IDs"):  
     api_endpoint = f'https://{server_address}/api/historicdata.csv?id={id_value}&avg={flags.get("avg")}&sdate={flags.get("sdate")}&edate={flags.get("edate")}&username={server_parameters.get("username")}&passhash={server_parameters.get("passhash")}'
     response = requests.get(api_endpoint)
     df = pd.read_csv(io.StringIO(response.text))
-    df['Traffic Total (Speed)'] = df['Traffic Total (Speed)'].str.extract(r'(\d+\.*\d*)').astype(float)
-    selected_data = df["Traffic Total (Speed)"]
-    selected_data.to_csv("abcd.csv", index=False)
+    
+    try:
+        df['Traffic Total (Speed)'] = df['Traffic Total (Speed)'].astype(str).str.extract(r'(\d+\.*\d*)').astype(float)
+        selected_data = df["Traffic Total (Speed)"]
+    except KeyError:
+        print(f"Traffic Total (Speed) column not found for ID: {id_value}")
+        continue  # Skip processing for this ID and move to the next one
+    
     if flags.get("cmp") == '1':
         filtered_data = selected_data[selected_data > upper_warning_limits.get(id_value, 0)]
         if not filtered_data.empty:
@@ -61,22 +69,26 @@ for id_value in tqdm(id_values, desc="Processing IDs"):
             else:
                 parent_device_name = "Device name not available"
             for index, value in filtered_data.items():
-                print(f"ID: {id_value}, Device Name: {parent_device_name}, Date: {df.loc[index, 'Date Time']}, Traffic Total: {value}")
-            # Save the output to Excel with current date and time as filename
-            output_data = []
-            for index, value in filtered_data.items():
                 output_data.append({
                     "ID": id_value,
                     "Device Name": parent_device_name,
                     "Date": df.loc[index, 'Date Time'],
                     "Traffic Total": value
                 })
-            output_df = pd.DataFrame(output_data)
-            # Generate filename with current date and time
-            current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-            output_filename = f"output_{current_datetime}.csv"
-            output_df.to_csv(output_filename, index=False)
         else:
             print(f"No data found exceeding the upper warning limit for ID: {id_value}")
     else:
         print(f"No data found exceeding the upper warning limit for ID: {id_value}")
+
+# Create DataFrame from output data
+output_df = pd.DataFrame(output_data)
+
+# Group by Device Name and concatenate data for same Device Name
+grouped_df = output_df.groupby("Device Name").apply(lambda x: x.sort_values(by="ID")).reset_index(drop=True)
+
+# Generate filename with current date and time
+current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+output_filename = f"output_{current_datetime}.csv"
+
+# Save to CSV
+grouped_df.to_csv(output_filename, index=False)

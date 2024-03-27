@@ -1,0 +1,471 @@
+ID,MAX SPEED,MAX SPEED DATE TIME,MIN SPEED,TRAFFIC TOTAL UPPER ERROR LIMIT,TRAFFIC TOTAL LOWER ERROR LIMIT,TRAFFIC TOTAL UPPER WARNING LIMIT,TRAFFIC TOTAL LOWER WARNING LIMIT
+8193,167 Mbit/s,17-03-2024 02:27,1.29 Mbit/s,800,not_set,700,not_set
+10705,86 Mbit/s,17-03-2024 03:20,< 0.01,800,not_set,700,not_set
+9966,322 Mbit/s,17-03-2024 05:47,1.64 Mbit/s,800,not_set,700,not_set
+10017,324 Mbit/s,17-03-2024 05:26,1.64 Mbit/s,800,not_set,700,not_set
+9930,37 Mbit/s,17-03-2024 05:02,0.02 Mbit/s,130,not_set,100,not_set
+10968,0.26 Mbit/s,17-03-2024 00:37,0.24 Mbit/s,800,not_set,700,not_set
+11001,0.25 Mbit/s,17-03-2024 00:50,0.24 Mbit/s,800,not_set,700,not_set
+10590,165 Mbit/s,17-03-2024 02:35,< 0.01,800,not_set,700,not_set
+2718,4.05 Mbit/s,17-03-2024 05:00,0.46 Mbit/s,800,not_set,700,not_set
+2729,3.14 Mbit/s,17-03-2024 05:00,0.02 Mbit/s,800,not_set,700,not_set
+2751,3.63 Mbit/s,17-03-2024 01:00,0.01 Mbit/s,800,not_set,700,not_set
+2761,3.98 Mbit/s,17-03-2024 05:00,0.23 Mbit/s,800,not_set,700,not_set
+4622,1.96 Mbit/s,17-03-2024 03:00,0.01 Mbit/s,800,not_set,700,not_set
+4628,1.61 Mbit/s,17-03-2024 03:00,< 0.01,800,not_set,700,not_set
+9772,0.79 Mbit/s,17-03-2024 05:54,0.30 Mbit/s,800,not_set,700,not_set
+9778,0.78 Mbit/s,17-03-2024 06:13,0.30 Mbit/s,800,not_set,700,not_set
+7945,,,,8000,not_set,7000,not_set
+4634,< 0.01,17-03-2024 04:00,< 0.01,500,not_set,400,not_set
+4700,9.15 Mbit/s,17-03-2024 04:37,0.06 Mbit/s,500,not_set,400,not_set
+10011,< 0.01,17-03-2024 03:50,< 0.01,800,not_set,700,not_set
+3898,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+10862,"2,517 Mbit/s",17-03-2024 06:57,7.34 Mbit/s,8000,not_set,7000,not_set
+10868,"6,598 Mbit/s",17-03-2024 03:23,8.36 Mbit/s,16000,not_set,10000,not_set
+8525,12 Mbit/s,17-03-2024 06:22,0.77 Mbit/s,800,not_set,700,not_set
+7705,0.91 Mbit/s,17-03-2024 02:04,0.07 Mbit/s,800,not_set,700,not_set
+4637,0.02 Mbit/s,17-03-2024 04:15,< 0.01,500,not_set,400,not_set
+4703,54 Mbit/s,17-03-2024 05:46,0.06 Mbit/s,500,not_set,400,not_set
+10591,0.26 Mbit/s,17-03-2024 03:11,0.08 Mbit/s,800,not_set,700,not_set
+2752,25 Mbit/s,17-03-2024 06:35,0.09 Mbit/s,800,not_set,700,not_set
+2762,25 Mbit/s,17-03-2024 06:35,0.09 Mbit/s,800,not_set,700,not_set
+4624,25 Mbit/s,17-03-2024 02:23,0.04 Mbit/s,800,not_set,700,not_set
+4630,25 Mbit/s,17-03-2024 02:23,0.04 Mbit/s,800,not_set,700,not_set
+9775,3.66 Mbit/s,17-03-2024 06:12,0.09 Mbit/s,800,not_set,700,not_set
+9779,3.68 Mbit/s,17-03-2024 06:13,0.09 Mbit/s,800,not_set,700,not_set
+4518,8 Mbit/s,17-03-2024 01:01,5.37 Mbit/s,800,not_set,700,not_set
+4533,5.31 Mbit/s,17-03-2024 01:01,0.02 Mbit/s,800,not_set,700,not_set
+4552,3.50 Mbit/s,17-03-2024 03:01,0.22 Mbit/s,800,not_set,700,not_set
+4564,2.36 Mbit/s,17-03-2024 01:00,0.03 Mbit/s,800,not_set,700,not_set
+4579,1.08 Mbit/s,17-03-2024 06:57,0.11 Mbit/s,800,not_set,700,not_set
+4598,0.39 Mbit/s,17-03-2024 04:31,0.03 Mbit/s,800,not_set,700,not_set
+4610,1.38 Mbit/s,17-03-2024 01:00,0.04 Mbit/s,800,not_set,700,not_set
+4616,1.24 Mbit/s,17-03-2024 01:00,0.01 Mbit/s,800,not_set,700,not_set
+4643,,,,not_set,not_set,not_set,not_set
+4654,,,,not_set,not_set,not_set,not_set
+7947,,,,8000,not_set,7000,not_set
+10707,53 Mbit/s,17-03-2024 05:48,< 0.01,800,not_set,700,not_set
+10018,< 0.01,17-03-2024 03:20,< 0.01,800,not_set,700,not_set
+10012,< 0.01,17-03-2024 03:21,< 0.01,800,not_set,700,not_set
+9968,4.16 Mbit/s,17-03-2024 05:37,0.01 Mbit/s,800,not_set,700,not_set
+8526,2.03 Mbit/s,17-03-2024 01:11,< 0.01,800,not_set,700,not_set
+7707,0.36 Mbit/s,17-03-2024 00:03,< 0.01,800,not_set,700,not_set
+4611,94 Mbit/s,17-03-2024 01:15,12 Mbit/s,500,not_set,400,not_set
+4617,< 0.01,17-03-2024 06:12,< 0.01,500,not_set,400,not_set
+4704,26 Mbit/s,17-03-2024 05:37,0.06 Mbit/s,500,not_set,400,not_set
+4644,,,,500,not_set,400,not_set
+4655,,,,500,not_set,400,not_set
+4241,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+5535,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,200,not_set,150,not_set
+10142,21 Mbit/s,17-03-2024 03:34,1.46 Mbit/s,800,not_set,700,not_set
+10131,,,,not_set,not_set,not_set,not_set
+10701,33 Mbit/s,17-03-2024 03:20,< 0.01,800,not_set,700,not_set
+10708,43 Mbit/s,17-03-2024 03:20,2.08 Mbit/s,800,not_set,700,not_set
+4474,0.10 Mbit/s,17-03-2024 03:48,0.02 Mbit/s,800,not_set,700,not_set
+4480,,,,8000,not_set,7000,not_set
+10749,,,,800,not_set,700,not_set
+8527,0.78 Mbit/s,17-03-2024 02:00,0.07 Mbit/s,800,not_set,700,not_set
+9882,0.03 Mbit/s,17-03-2024 03:00,< 0.01,800,not_set,700,not_set
+10013,0.02 Mbit/s,17-03-2024 03:16,0.01 Mbit/s,800,not_set,700,not_set
+4526,372 Mbit/s,17-03-2024 02:41,2.64 Mbit/s,500,not_set,400,not_set
+4540,0.23 Mbit/s,17-03-2024 04:15,0.02 Mbit/s,500,not_set,400,not_set
+4553,10 Mbit/s,17-03-2024 06:57,0.08 Mbit/s,500,not_set,400,not_set
+4565,0.06 Mbit/s,17-03-2024 04:31,0.03 Mbit/s,500,not_set,400,not_set
+4705,0.03 Mbit/s,17-03-2024 02:04,0.03 Mbit/s,500,not_set,400,not_set
+4645,,,,500,not_set,400,not_set
+4656,,,,500,not_set,400,not_set
+10354,0.12 Mbit/s,17-03-2024 02:01,0.08 Mbit/s,800,not_set,700,not_set
+10362,0.09 Mbit/s,17-03-2024 00:36,0.08 Mbit/s,800,not_set,700,not_set
+4242,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+5536,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,200,not_set,150,not_set
+10143,,,,not_set,not_set,not_set,not_set
+9381,,,,8000,not_set,7000,not_set
+7921,,,,8000,not_set,7000,not_set
+3060,0.10 Mbit/s,17-03-2024 00:36,0.09 Mbit/s,800,not_set,700,not_set
+9158,0.02 Mbit/s,17-03-2024 02:00,< 0.01,800,not_set,700,not_set
+9233,0.03 Mbit/s,17-03-2024 02:00,< 0.01,800,not_set,700,not_set
+10702,58 Mbit/s,17-03-2024 05:27,0.53 Mbit/s,800,not_set,700,not_set
+10709,58 Mbit/s,17-03-2024 05:59,0.66 Mbit/s,800,not_set,700,not_set
+4475,,,,800,not_set,700,not_set
+4481,,,,800,not_set,700,not_set
+9883,< 0.01,17-03-2024 06:20,< 0.01,not_set,not_set,800,700
+10020,2.03 Mbit/s,17-03-2024 00:26,0.32 Mbit/s,800,not_set,700,not_set
+4530,22 Mbit/s,17-03-2024 06:35,0.75 Mbit/s,500,not_set,400,not_set
+4544,0.43 Mbit/s,17-03-2024 04:16,< 0.01,500,not_set,400,not_set
+4554,0.02 Mbit/s,17-03-2024 01:27,< 0.01,500,not_set,400,not_set
+4566,< 0.01,17-03-2024 03:15,< 0.01,500,not_set,400,not_set
+8528,11 Mbit/s,17-03-2024 01:01,6.89 Mbit/s,800,not_set,700,not_set
+4531,4.32 Mbit/s,17-03-2024 02:31,0.10 Mbit/s,800,not_set,700,not_set
+4545,25 Mbit/s,17-03-2024 05:30,0.07 Mbit/s,800,not_set,700,not_set
+4567,24 Mbit/s,17-03-2024 06:42,0.05 Mbit/s,800,not_set,700,not_set
+4589,22 Mbit/s,17-03-2024 06:14,0.06 Mbit/s,800,not_set,700,not_set
+4608,22 Mbit/s,17-03-2024 06:14,0.06 Mbit/s,800,not_set,700,not_set
+4612,25 Mbit/s,17-03-2024 05:40,0.05 Mbit/s,800,not_set,700,not_set
+4618,25 Mbit/s,17-03-2024 05:40,0.04 Mbit/s,800,not_set,700,not_set
+4646,,,,not_set,not_set,not_set,not_set
+4657,,,,not_set,not_set,not_set,not_set
+10079,4.88 Mbit/s,17-03-2024 04:10,< 0.01,800,not_set,700,not_set
+10955,76 Mbit/s,17-03-2024 05:28,0.87 Mbit/s,800,not_set,700,not_set
+3061,0.10 Mbit/s,17-03-2024 00:35,0.09 Mbit/s,800,not_set,700,not_set
+10015,0.02 Mbit/s,17-03-2024 01:35,0.01 Mbit/s,800,not_set,700,not_set
+10021,0.02 Mbit/s,17-03-2024 04:57,0.02 Mbit/s,800,not_set,700,not_set
+9235,"1,023 Mbit/s",17-03-2024 02:47,3.10 Mbit/s,8000,not_set,7000,not_set
+10865,"6,067 Mbit/s",17-03-2024 04:32,15 Mbit/s,32000,not_set,28000,not_set
+10870,"9,532 Mbit/s",17-03-2024 03:23,13 Mbit/s,32000,not_set,28000,not_set
+8529,13 Mbit/s,17-03-2024 06:22,2.71 Mbit/s,800,not_set,700,not_set
+10917,44 Mbit/s,17-03-2024 05:02,< 0.01,800,not_set,700,not_set
+7079,0.02 Mbit/s,17-03-2024 05:01,< 0.01,8000,not_set,7000,not_set
+4532,0.04 Mbit/s,17-03-2024 05:44,0.04 Mbit/s,800,not_set,700,not_set
+4546,0.04 Mbit/s,17-03-2024 04:31,0.04 Mbit/s,800,not_set,700,not_set
+4555,0.04 Mbit/s,17-03-2024 03:30,0.04 Mbit/s,800,not_set,700,not_set
+4568,0.04 Mbit/s,17-03-2024 04:29,0.04 Mbit/s,800,not_set,700,not_set
+4590,0.04 Mbit/s,17-03-2024 04:29,0.04 Mbit/s,800,not_set,700,not_set
+4609,0.04 Mbit/s,17-03-2024 02:42,0.04 Mbit/s,800,not_set,700,not_set
+4613,0.04 Mbit/s,17-03-2024 02:56,0.04 Mbit/s,800,not_set,700,not_set
+4619,0.04 Mbit/s,17-03-2024 03:30,0.04 Mbit/s,800,not_set,700,not_set
+4647,,,,not_set,not_set,not_set,not_set
+4658,,,,not_set,not_set,not_set,not_set
+10990,91 Mbit/s,17-03-2024 01:40,59 Mbit/s,800,not_set,700,not_set
+11011,< 0.01,17-03-2024 00:50,< 0.01,800,not_set,700,not_set
+10755,< 0.01,17-03-2024 00:50,< 0.01,800,not_set,700,not_set
+10336,0.04 Mbit/s,17-03-2024 05:02,0.01 Mbit/s,800,not_set,700,not_set
+4556,7.27 Mbit/s,17-03-2024 02:41,< 0.01,500,not_set,400,not_set
+4569,< 0.01,17-03-2024 01:05,< 0.01,500,not_set,400,not_set
+4648,,,,500,not_set,400,not_set
+4659,,,,500,not_set,400,not_set
+7065,289 Mbit/s,17-03-2024 00:24,< 0.01,20000,not_set,17500,not_set
+10369,0.01 Mbit/s,17-03-2024 00:06,< 0.01,800,not_set,700,not_set
+10375,0.02 Mbit/s,17-03-2024 00:05,< 0.01,800,not_set,700,not_set
+10918,0.03 Mbit/s,17-03-2024 05:07,< 0.01,800,not_set,700,not_set
+11000,< 0.01,17-03-2024 06:55,< 0.01,800,not_set,700,not_set
+10991,0.19 Mbit/s,17-03-2024 01:13,0.04 Mbit/s,800,not_set,700,not_set
+11012,< 0.01,17-03-2024 00:50,< 0.01,800,not_set,700,not_set
+4638,< 0.01,17-03-2024 01:17,< 0.01,500,not_set,400,not_set
+4706,9.82 Mbit/s,17-03-2024 04:37,0.09 Mbit/s,500,not_set,400,not_set
+4614,85 Mbit/s,17-03-2024 01:15,9.96 Mbit/s,500,not_set,400,not_set
+4620,< 0.01,17-03-2024 00:25,< 0.01,500,not_set,400,not_set
+10248,0.03 Mbit/s,17-03-2024 02:25,0.01 Mbit/s,800,not_set,700,not_set
+9969,1.70 Mbit/s,17-03-2024 02:38,1.18 Mbit/s,800,not_set,700,not_set
+8530,5.58 Mbit/s,17-03-2024 06:35,0.05 Mbit/s,800,not_set,700,not_set
+4557,< 0.01,17-03-2024 06:43,< 0.01,500,not_set,400,not_set
+4570,< 0.01,17-03-2024 04:47,< 0.01,500,not_set,400,not_set
+10919,0.76 Mbit/s,17-03-2024 01:38,< 0.01,800,not_set,700,not_set
+10134,< 0.01,17-03-2024 03:13,< 0.01,800,not_set,700,not_set
+10144,< 0.01,17-03-2024 03:23,< 0.01,800,not_set,700,not_set
+10370,< 0.01,17-03-2024 05:21,< 0.01,800,not_set,700,not_set
+10376,< 0.01,17-03-2024 06:02,< 0.01,800,not_set,700,not_set
+11013,< 0.01,17-03-2024 06:56,< 0.01,800,not_set,700,not_set
+10992,< 0.01,17-03-2024 02:35,< 0.01,800,not_set,700,not_set
+4615,< 0.01,17-03-2024 06:11,< 0.01,500,not_set,400,not_set
+4621,< 0.01,17-03-2024 00:26,< 0.01,500,not_set,400,not_set
+8459,4.37 Mbit/s,17-03-2024 06:35,0.12 Mbit/s,800,not_set,700,not_set
+9970,327 Mbit/s,17-03-2024 05:47,0.12 Mbit/s,800,not_set,700,not_set
+4558,8.47 Mbit/s,17-03-2024 02:13,0.02 Mbit/s,500,not_set,400,not_set
+4571,0.02 Mbit/s,17-03-2024 04:30,< 0.01,500,not_set,400,not_set
+10371,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+4639,0.39 Mbit/s,17-03-2024 04:31,0.02 Mbit/s,500,not_set,400,not_set
+4650,,,,500,not_set,400,not_set
+4661,,,,500,not_set,400,not_set
+10016,0.02 Mbit/s,17-03-2024 04:24,0.01 Mbit/s,800,not_set,700,not_set
+10022,324 Mbit/s,17-03-2024 05:47,1.34 Mbit/s,800,not_set,700,not_set
+9971,3.88 Mbit/s,17-03-2024 00:37,1.28 Mbit/s,800,not_set,700,not_set
+10866,"1,608 Mbit/s",17-03-2024 03:24,6.70 Mbit/s,16000,not_set,10000,not_set
+10871,626 Mbit/s,17-03-2024 05:17,8.89 Mbit/s,16000,not_set,10000,not_set
+4547,16 Mbit/s,17-03-2024 05:38,< 0.01,500,not_set,400,not_set
+4559,< 0.01,17-03-2024 04:55,< 0.01,500,not_set,400,not_set
+10252,0.01 Mbit/s,17-03-2024 00:04,< 0.01,800,not_set,700,not_set
+4640,,,,500,not_set,400,not_set
+4651,,,,500,not_set,400,not_set
+8580,,,,800,not_set,700,not_set
+8582,< 0.01,17-03-2024 01:54,< 0.01,800,not_set,700,not_set
+10366,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+10372,,,,not_set,not_set,not_set,not_set
+2769,0.03 Mbit/s,17-03-2024 02:40,0.03 Mbit/s,800,not_set,700,not_set
+7706,1.07 Mbit/s,17-03-2024 02:04,0.10 Mbit/s,800,not_set,700,not_set
+10241,0.01 Mbit/s,17-03-2024 00:05,0.01 Mbit/s,800,not_set,700,not_set
+9967,3.14 Mbit/s,17-03-2024 01:47,0.17 Mbit/s,800,not_set,700,not_set
+8428,< 0.01,17-03-2024 03:36,< 0.01,800,not_set,700,not_set
+8461,5.60 Mbit/s,17-03-2024 06:36,0.05 Mbit/s,800,not_set,700,not_set
+10447,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+4548,20 Mbit/s,17-03-2024 06:57,< 0.01,500,not_set,400,not_set
+4560,< 0.01,17-03-2024 02:40,< 0.01,500,not_set,400,not_set
+10367,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+4641,,,,500,not_set,400,not_set
+4652,,,,500,not_set,400,not_set
+6531,59 Mbit/s,17-03-2024 06:56,30 Mbit/s,8000,not_set,7000,not_set
+10242,0.01 Mbit/s,17-03-2024 00:04,< 0.01,800,not_set,700,not_set
+10253,0.01 Mbit/s,17-03-2024 00:05,< 0.01,800,not_set,700,not_set
+4642,,,,500,not_set,400,not_set
+4653,,,,500,not_set,400,not_set
+10368,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+6532,2.05 Mbit/s,17-03-2024 05:41,0.17 Mbit/s,8000,not_set,7000,not_set
+10243,< 0.01,17-03-2024 06:12,< 0.01,800,not_set,700,not_set
+10254,,,,not_set,not_set,not_set,not_set
+4635,< 0.01,17-03-2024 05:45,< 0.01,500,not_set,400,not_set
+4701,55 Mbit/s,17-03-2024 05:38,0.05 Mbit/s,500,not_set,400,not_set
+10706,0.02 Mbit/s,17-03-2024 01:00,0.01 Mbit/s,800,not_set,700,not_set
+6533,60 Mbit/s,17-03-2024 06:56,31 Mbit/s,32000,not_set,28000,not_set
+4549,0.22 Mbit/s,17-03-2024 06:44,< 0.01,500,not_set,400,not_set
+4561,0.01 Mbit/s,17-03-2024 02:32,< 0.01,500,not_set,400,not_set
+10244,0.03 Mbit/s,17-03-2024 00:33,< 0.01,800,not_set,700,not_set
+10996,,,,not_set,not_set,not_set,not_set
+10869,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,32000,not_set,28000,not_set
+4636,< 0.01,17-03-2024 05:17,< 0.01,500,not_set,400,not_set
+4702,9.57 Mbit/s,17-03-2024 04:37,0.05 Mbit/s,500,not_set,400,not_set
+6534,1.99 Mbit/s,17-03-2024 05:41,0.18 Mbit/s,32000,not_set,28000,not_set
+6521,< 0.01,17-03-2024 05:01,< 0.01,800,not_set,700,not_set
+9138,"2,471 Mbit/s",17-03-2024 01:22,1.57 Mbit/s,16000,not_set,10000,not_set
+8029,,,,210,0.03,150,0.05
+9202,"1,832 Mbit/s",17-03-2024 02:02,3.08 Mbit/s,8000,not_set,7000,not_set
+9141,"1,250 Mbit/s",17-03-2024 01:02,0.79 Mbit/s,16000,not_set,10000,not_set
+9210,"1,637 Mbit/s",17-03-2024 02:02,1.83 Mbit/s,8000,not_set,7000,not_set
+9773,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+9795,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+7946,,,,510,0.03,450,0.05
+9142,"3,100 Mbit/s",17-03-2024 01:22,1.51 Mbit/s,16000,not_set,10000,not_set
+9212,"7,372 Mbit/s",17-03-2024 01:52,3.28 Mbit/s,8000,not_set,7000,not_set
+9143,"1,339 Mbit/s",17-03-2024 01:01,0.84 Mbit/s,16000,not_set,10000,not_set
+7979,105 Mbit/s,17-03-2024 03:20,< 0.01,800,not_set,700,not_set
+9213,929 Mbit/s,17-03-2024 02:41,1.17 Mbit/s,800,not_set,700,not_set
+8464,0.01 Mbit/s,17-03-2024 01:01,< 0.01,800,not_set,700,not_set
+8432,0.01 Mbit/s,17-03-2024 02:00,< 0.01,800,not_set,700,not_set
+7684,< 0.01,17-03-2024 03:23,< 0.01,800,not_set,700,not_set
+7687,1.74 Mbit/s,17-03-2024 02:50,< 0.01,800,not_set,700,not_set
+9774,1.84 Mbit/s,17-03-2024 06:15,0.03 Mbit/s,800,not_set,700,not_set
+9780,3.31 Mbit/s,17-03-2024 06:15,0.03 Mbit/s,800,not_set,700,not_set
+9796,< 0.01,17-03-2024 01:43,< 0.01,800,not_set,700,not_set
+10657,53 Mbit/s,17-03-2024 05:45,0.21 Mbit/s,800,not_set,700,not_set
+9214,"6,792 Mbit/s",17-03-2024 03:18,3.72 Mbit/s,800,not_set,700,not_set
+4623,6.21 Mbit/s,17-03-2024 00:52,0.42 Mbit/s,500,not_set,400,not_set
+4629,< 0.01,17-03-2024 05:13,< 0.01,500,not_set,400,not_set
+2719,100 Mbit/s,17-03-2024 05:44,2.63 Mbit/s,500,not_set,400,not_set
+2730,0.03 Mbit/s,17-03-2024 02:07,0.02 Mbit/s,500,not_set,400,not_set
+8465,0.01 Mbit/s,17-03-2024 02:00,< 0.01,800,not_set,700,not_set
+8433,0.01 Mbit/s,17-03-2024 01:00,< 0.01,800,not_set,700,not_set
+4578,3.18 Mbit/s,17-03-2024 02:43,< 0.01,500,not_set,400,not_set
+4597,0.05 Mbit/s,17-03-2024 04:30,< 0.01,500,not_set,400,not_set
+9144,509 Mbit/s,17-03-2024 02:03,13 Mbit/s,16000,not_set,10000,not_set
+7081,0.04 Mbit/s,17-03-2024 06:12,0.02 Mbit/s,20000,not_set,17500,not_set
+7067,382 Mbit/s,17-03-2024 00:23,0.02 Mbit/s,20000,not_set,17500,not_set
+9776,2.31 Mbit/s,17-03-2024 06:15,0.30 Mbit/s,800,not_set,700,not_set
+9781,3.02 Mbit/s,17-03-2024 06:16,0.30 Mbit/s,800,not_set,700,not_set
+9797,< 0.01,17-03-2024 06:57,< 0.01,800,not_set,700,not_set
+9215,0.01 Mbit/s,17-03-2024 00:44,0.01 Mbit/s,800,not_set,700,not_set
+8466,296 Mbit/s,17-03-2024 03:37,0.31 Mbit/s,800,not_set,700,not_set
+8434,274 Mbit/s,17-03-2024 03:37,0.31 Mbit/s,800,not_set,700,not_set
+4625,< 0.01,17-03-2024 00:16,< 0.01,500,not_set,400,not_set
+4631,< 0.01,17-03-2024 00:26,< 0.01,500,not_set,400,not_set
+2720,3.08 Mbit/s,17-03-2024 01:01,0.06 Mbit/s,500,not_set,400,not_set
+2731,0.01 Mbit/s,17-03-2024 00:23,< 0.01,500,not_set,400,not_set
+4580,< 0.01,17-03-2024 02:14,< 0.01,500,not_set,400,not_set
+4599,< 0.01,17-03-2024 06:59,< 0.01,500,not_set,400,not_set
+9145,273 Mbit/s,17-03-2024 06:51,3.52 Mbit/s,16000,not_set,10000,not_set
+7708,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+9216,"4,033 Mbit/s",17-03-2024 02:09,3.06 Mbit/s,800,not_set,700,not_set
+8467,1.47 Mbit/s,17-03-2024 01:08,< 0.01,800,not_set,700,not_set
+8435,1.49 Mbit/s,17-03-2024 01:07,0.01 Mbit/s,800,not_set,700,not_set
+2721,84 Mbit/s,17-03-2024 00:20,0.11 Mbit/s,500,not_set,400,not_set
+2732,0.04 Mbit/s,17-03-2024 04:33,< 0.01,500,not_set,400,not_set
+4626,0.01 Mbit/s,17-03-2024 04:21,< 0.01,500,not_set,400,not_set
+4632,0.08 Mbit/s,17-03-2024 04:59,< 0.01,500,not_set,400,not_set
+4581,2.62 Mbit/s,17-03-2024 02:43,< 0.01,500,not_set,400,not_set
+4600,0.01 Mbit/s,17-03-2024 02:32,< 0.01,500,not_set,400,not_set
+9146,523 Mbit/s,17-03-2024 02:09,14 Mbit/s,16000,not_set,10000,not_set
+9217,151 Mbit/s,17-03-2024 02:02,0.89 Mbit/s,800,not_set,700,not_set
+8468,< 0.01,17-03-2024 06:54,< 0.01,800,not_set,700,not_set
+8436,0.08 Mbit/s,17-03-2024 02:00,0.03 Mbit/s,800,not_set,700,not_set
+2722,5.45 Mbit/s,17-03-2024 03:26,1.32 Mbit/s,500,not_set,400,not_set
+2733,< 0.01,17-03-2024 00:12,< 0.01,500,not_set,400,not_set
+4627,0.01 Mbit/s,17-03-2024 04:21,< 0.01,500,not_set,400,not_set
+4633,0.08 Mbit/s,17-03-2024 04:59,< 0.01,500,not_set,400,not_set
+9147,186 Mbit/s,17-03-2024 06:52,3.38 Mbit/s,16000,not_set,10000,not_set
+7980,0.02 Mbit/s,17-03-2024 01:01,0.01 Mbit/s,800,not_set,700,not_set
+9218,"6,781 Mbit/s",17-03-2024 02:08,2.11 Mbit/s,800,not_set,700,not_set
+8469,"1,019 Mbit/s",17-03-2024 00:23,0 Mbit/s,800,not_set,700,not_set
+8437,"1,039 Mbit/s",17-03-2024 00:22,0.20 Mbit/s,800,not_set,700,not_set
+9148,< 0.01,17-03-2024 04:51,< 0.01,800,not_set,700,not_set
+10735,13 Mbit/s,17-03-2024 00:45,0.22 Mbit/s,800,not_set,700,not_set
+10352,< 0.01,17-03-2024 05:51,< 0.01,800,not_set,700,not_set
+10353,< 0.01,17-03-2024 05:51,< 0.01,800,not_set,700,not_set
+4524,0.67 Mbit/s,17-03-2024 04:41,0.02 Mbit/s,500,not_set,400,not_set
+9149,0.03 Mbit/s,17-03-2024 01:01,< 0.01,800,not_set,700,not_set
+9222,0.12 Mbit/s,17-03-2024 02:18,< 0.01,800,not_set,100,not_set
+4583,2.06 Mbit/s,17-03-2024 02:36,0.01 Mbit/s,500,not_set,400,not_set
+4602,< 0.01,17-03-2024 03:12,< 0.01,500,not_set,400,not_set
+9150,"1,996 Mbit/s",17-03-2024 01:22,< 0.01,20000,not_set,17500,not_set
+4527,1.28 Mbit/s,17-03-2024 05:23,< 0.01,500,not_set,400,not_set
+4541,0.02 Mbit/s,17-03-2024 03:50,< 0.01,500,not_set,400,not_set
+9223,6.45 Mbit/s,17-03-2024 01:08,1.97 Mbit/s,800,not_set,700,not_set
+4585,5.37 Mbit/s,17-03-2024 02:36,0.01 Mbit/s,500,not_set,400,not_set
+4604,< 0.01,17-03-2024 05:04,< 0.01,500,not_set,400,not_set
+9151,0.02 Mbit/s,17-03-2024 02:26,< 0.01,800,not_set,700,not_set
+9224,0.12 Mbit/s,17-03-2024 02:46,< 0.01,800,not_set,700,not_set
+4586,0.16 Mbit/s,17-03-2024 01:13,0.02 Mbit/s,500,not_set,400,not_set
+4605,< 0.01,17-03-2024 02:40,< 0.01,500,not_set,400,not_set
+9931,< 0.01,17-03-2024 00:56,< 0.01,800,not_set,700,not_set
+9152,557 Mbit/s,17-03-2024 02:49,< 0.01,800,not_set,700,not_set
+9225,"1,194 Mbit/s",17-03-2024 01:04,< 0.01,800,not_set,700,not_set
+4587,0.13 Mbit/s,17-03-2024 00:14,0.03 Mbit/s,500,not_set,400,not_set
+4606,< 0.01,17-03-2024 05:17,< 0.01,500,not_set,400,not_set
+8470,"1,020 Mbit/s",17-03-2024 00:22,0.67 Mbit/s,800,not_set,700,not_set
+8438,581 Mbit/s,17-03-2024 02:48,0.62 Mbit/s,800,not_set,700,not_set
+2723,26 Mbit/s,17-03-2024 05:39,0.11 Mbit/s,800,not_set,700,not_set
+2734,26 Mbit/s,17-03-2024 05:39,0.11 Mbit/s,800,not_set,700,not_set
+9226,"1,088 Mbit/s",17-03-2024 03:18,< 0.01,800,not_set,700,not_set
+8471,< 0.01,17-03-2024 01:03,< 0.01,800,not_set,700,not_set
+8439,< 0.01,17-03-2024 06:17,< 0.01,800,not_set,700,not_set
+9153,"1,440 Mbit/s",17-03-2024 03:09,< 0.01,8000,not_set,7000,not_set
+7685,0.03 Mbit/s,17-03-2024 00:26,0.02 Mbit/s,500,not_set,400,not_set
+9782,2.02 Mbit/s,17-03-2024 06:14,0.03 Mbit/s,800,not_set,700,not_set
+9798,< 0.01,17-03-2024 00:35,< 0.01,800,not_set,700,not_set
+2724,0.04 Mbit/s,17-03-2024 02:14,0.04 Mbit/s,800,not_set,100,not_set
+2735,0.04 Mbit/s,17-03-2024 04:05,0.04 Mbit/s,800,not_set,700,not_set
+9227,< 0.01,17-03-2024 05:13,< 0.01,800,not_set,700,not_set
+2754,0.03 Mbit/s,17-03-2024 06:04,0.02 Mbit/s,500,not_set,400,not_set
+9154,348 Mbit/s,17-03-2024 01:32,< 0.01,16000,not_set,10000,not_set
+7688,107 Mbit/s,17-03-2024 00:44,0.51 Mbit/s,500,not_set,400,not_set
+9783,2.25 Mbit/s,17-03-2024 06:16,0.24 Mbit/s,800,not_set,700,not_set
+9784,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+9228,992 Mbit/s,17-03-2024 02:23,< 0.01,800,not_set,700,not_set
+9155,"3,744 Mbit/s",17-03-2024 00:42,< 0.01,800,not_set,700,not_set
+9785,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+9229,0.06 Mbit/s,17-03-2024 02:18,< 0.01,800,not_set,700,not_set
+8440,232 Mbit/s,17-03-2024 01:26,0.01 Mbit/s,800,not_set,700,not_set
+9156,0.02 Mbit/s,17-03-2024 01:12,< 0.01,8000,not_set,7000,not_set
+8441,< 0.01,17-03-2024 03:33,< 0.01,800,not_set,700,not_set
+9786,1.38 Mbit/s,17-03-2024 06:14,0.02 Mbit/s,800,not_set,700,not_set
+9800,< 0.01,17-03-2024 05:55,< 0.01,800,not_set,700,not_set
+9230,0.12 Mbit/s,17-03-2024 02:46,< 0.01,800,not_set,700,not_set
+9157,< 0.01,17-03-2024 02:26,< 0.01,800,not_set,700,not_set
+9787,2.83 Mbit/s,17-03-2024 06:16,0.23 Mbit/s,800,not_set,700,not_set
+9801,< 0.01,17-03-2024 06:57,< 0.01,800,not_set,700,not_set
+8472,"1,044 Mbit/s",17-03-2024 02:48,2.82 Mbit/s,800,not_set,700,not_set
+8442,< 0.01,17-03-2024 03:32,< 0.01,800,not_set,700,not_set
+8443,1.63 Mbit/s,17-03-2024 01:07,0.16 Mbit/s,800,not_set,700,not_set
+9802,0 Mbit/s,17-03-2024 00:00,0 Mbit/s,800,not_set,700,not_set
+8445,1.47 Mbit/s,17-03-2024 01:08,< 0.01,800,not_set,700,not_set
+9788,,,,800,not_set,700,not_set
+10927,< 0.01,17-03-2024 00:49,< 0.01,800,not_set,700,not_set
+8473,"1,047 Mbit/s",17-03-2024 02:49,2.75 Mbit/s,8000,not_set,7000,not_set
+8446,"1,056 Mbit/s",17-03-2024 02:23,2.76 Mbit/s,800,not_set,700,not_set
+8447,415 Mbit/s,17-03-2024 02:26,1.24 Mbit/s,800,not_set,700,not_set
+9789,2.73 Mbit/s,17-03-2024 06:16,0.23 Mbit/s,800,not_set,700,not_set
+9804,< 0.01,17-03-2024 01:06,< 0.01,800,not_set,700,not_set
+8474,1.35 Mbit/s,17-03-2024 01:08,< 0.01,800,not_set,700,not_set
+8448,1.49 Mbit/s,17-03-2024 01:07,0.02 Mbit/s,800,not_set,700,not_set
+10956,0.02 Mbit/s,17-03-2024 00:05,0.01 Mbit/s,800,not_set,700,not_set
+9607,< 0.01,17-03-2024 00:16,< 0.01,800,not_set,700,not_set
+8449,< 0.01,17-03-2024 01:52,< 0.01,800,not_set,700,not_set
+8475,1.60 Mbit/s,17-03-2024 01:07,< 0.01,800,not_set,700,not_set
+8450,2.80 Mbit/s,17-03-2024 01:07,1 Mbit/s,800,not_set,700,not_set
+9955,"1,417 Mbit/s",17-03-2024 00:20,0.83 Mbit/s,800,not_set,700,not_set
+8579,,,,800,not_set,700,not_set
+8477,1.46 Mbit/s,17-03-2024 01:08,< 0.01,800,not_set,700,not_set
+8583,437 Mbit/s,17-03-2024 01:25,10 Mbit/s,800,not_set,700,not_set
+8452,411 Mbit/s,17-03-2024 01:25,9.30 Mbit/s,800,not_set,700,not_set
+8478,1.48 Mbit/s,17-03-2024 01:08,0.01 Mbit/s,800,not_set,700,not_set
+8453,14 Mbit/s,17-03-2024 01:01,4.14 Mbit/s,800,not_set,700,not_set
+9236,"3,942 Mbit/s",17-03-2024 00:42,< 0.01,800,not_set,700,not_set
+9608,< 0.01,17-03-2024 05:19,< 0.01,800,not_set,700,not_set
+10908,< 0.01,17-03-2024 00:18,< 0.01,800,not_set,700,not_set
+10957,0.01 Mbit/s,17-03-2024 01:14,< 0.01,800,not_set,700,not_set
+10378,0.66 Mbit/s,17-03-2024 04:41,0.01 Mbit/s,800,not_set,700,not_set
+9237,"1,380 Mbit/s",17-03-2024 02:12,0.01 Mbit/s,8000,not_set,7000,not_set
+10379,0.66 Mbit/s,17-03-2024 04:41,0.01 Mbit/s,800,not_set,700,not_set
+10880,,,,not_set,not_set,not_set,not_set
+10878,0.66 Mbit/s,17-03-2024 00:41,0.06 Mbit/s,not_set,not_set,not_set,not_set
+10876,,,,not_set,not_set,not_set,not_set
+10874,0.67 Mbit/s,17-03-2024 00:42,0.06 Mbit/s,not_set,not_set,not_set,not_set
+9159,809 Mbit/s,17-03-2024 06:53,0.02 Mbit/s,800,not_set,700,not_set
+9238,1.94 Mbit/s,17-03-2024 02:45,0.02 Mbit/s,800,not_set,700,not_set
+10355,< 0.01,17-03-2024 01:01,< 0.01,800,not_set,700,not_set
+10363,< 0.01,17-03-2024 03:01,< 0.01,800,not_set,700,not_set
+8456,0.08 Mbit/s,17-03-2024 05:01,< 0.01,800,not_set,700,not_set
+8584,0.08 Mbit/s,17-03-2024 05:01,< 0.01,800,not_set,700,not_set
+8481,< 0.01,17-03-2024 04:14,< 0.01,800,not_set,700,not_set
+8581,,,,800,not_set,700,not_set
+10881,,,,not_set,not_set,not_set,not_set
+10879,0.04 Mbit/s,17-03-2024 05:03,0.02 Mbit/s,not_set,not_set,not_set,not_set
+10877,,,,not_set,not_set,not_set,not_set
+10875,0.04 Mbit/s,17-03-2024 05:02,0.02 Mbit/s,not_set,not_set,not_set,not_set
+9160,199 Mbit/s,17-03-2024 06:53,0.28 Mbit/s,800,not_set,700,not_set
+9239,11 Mbit/s,17-03-2024 01:25,0.30 Mbit/s,800,not_set,700,not_set
+8457,2.22 Mbit/s,17-03-2024 01:11,0.13 Mbit/s,800,not_set,700,not_set
+8482,2.31 Mbit/s,17-03-2024 01:11,0.12 Mbit/s,800,not_set,700,not_set
+10335,,,,800,not_set,700,not_set
+10341,,,,800,not_set,700,not_set
+9161,328 Mbit/s,17-03-2024 03:21,0.01 Mbit/s,8000,not_set,7000,not_set
+9240,12 Mbit/s,17-03-2024 01:32,0.01 Mbit/s,8000,not_set,7000,not_set
+8458,5.72 Mbit/s,17-03-2024 06:35,0.17 Mbit/s,800,not_set,700,not_set
+8483,5.73 Mbit/s,17-03-2024 06:35,0.17 Mbit/s,800,not_set,700,not_set
+10686,,,,800,not_set,700,not_set
+9162,102 Mbit/s,17-03-2024 00:32,0.01 Mbit/s,8000,not_set,7000,not_set
+9241,7.71 Mbit/s,17-03-2024 00:42,0.01 Mbit/s,800,not_set,700,not_set
+10691,101 Mbit/s,17-03-2024 03:37,83 Mbit/s,800,not_set,700,not_set
+10693,101 Mbit/s,17-03-2024 03:37,84 Mbit/s,800,not_set,700,not_set
+10687,,,,800,not_set,700,not_set
+10246,,,,not_set,not_set,not_set,not_set
+10256,,,,not_set,not_set,not_set,not_set
+10692,,,,not_set,not_set,not_set,not_set
+9163,"3,469 Mbit/s",17-03-2024 00:43,< 0.01,8000,not_set,7000,not_set
+9242,"3,887 Mbit/s",17-03-2024 00:42,< 0.01,8000,not_set,7000,not_set
+9956,426 Mbit/s,17-03-2024 02:26,1.26 Mbit/s,800,not_set,700,not_set
+9164,999 Mbit/s,17-03-2024 06:53,0.34 Mbit/s,8000,not_set,7000,not_set
+9243,21 Mbit/s,17-03-2024 01:24,1.38 Mbit/s,8000,not_set,7000,not_set
+9244,< 0.01,17-03-2024 03:33,< 0.01,800,not_set,700,not_set
+8484,5.85 Mbit/s,17-03-2024 06:36,0.28 Mbit/s,800,not_set,700,not_set
+9165,911 Mbit/s,17-03-2024 04:51,1.31 Mbit/s,8000,not_set,7000,not_set
+9245,"2,710 Mbit/s",17-03-2024 03:38,2.73 Mbit/s,16000,not_set,10000,not_set
+9166,"8,029 Mbit/s",17-03-2024 01:22,3.01 Mbit/s,8000,not_set,7000,not_set
+9246,"5,044 Mbit/s",17-03-2024 02:02,23 Mbit/s,16000,not_set,10000,not_set
+9167,"8,881 Mbit/s",17-03-2024 01:21,2.44 Mbit/s,8000,not_set,7000,not_set
+9247,"4,610 Mbit/s",17-03-2024 03:11,6.12 Mbit/s,16000,not_set,10000,not_set
+9168,"3,721 Mbit/s",17-03-2024 03:21,0.66 Mbit/s,8000,not_set,7000,not_set
+9248,"4,032 Mbit/s",17-03-2024 03:12,3.34 Mbit/s,16000,not_set,10000,not_set
+9249,"4,060 Mbit/s",17-03-2024 02:02,4.24 Mbit/s,16000,not_set,10000,not_set
+9169,"1,894 Mbit/s",17-03-2024 00:42,15 Mbit/s,8000,not_set,7000,not_set
+9250,0.02 Mbit/s,17-03-2024 05:21,0.02 Mbit/s,16000,not_set,10000,not_set
+9170,"1,013 Mbit/s",17-03-2024 06:52,40 Mbit/s,8000,not_set,7000,not_set
+9251,"5,552 Mbit/s",17-03-2024 03:40,12 Mbit/s,16000,not_set,10000,not_set
+9171,"10,164 Mbit/s",17-03-2024 00:42,60 Mbit/s,8000,not_set,7000,not_set
+9252,"2,612 Mbit/s",17-03-2024 03:39,3.30 Mbit/s,16000,not_set,10000,not_set
+9172,"10,370 Mbit/s",17-03-2024 00:42,20 Mbit/s,8000,not_set,7000,not_set
+9253,"1,729 Mbit/s",17-03-2024 02:02,4 Mbit/s,16000,not_set,10000,not_set
+9173,< 0.01,17-03-2024 06:48,< 0.01,8000,not_set,7000,not_set
+9174,0.06 Mbit/s,17-03-2024 01:02,< 0.01,8000,not_set,7000,not_set
+9257,0.09 Mbit/s,17-03-2024 02:46,< 0.01,16000,not_set,10000,not_set
+9258,1.66 Mbit/s,17-03-2024 01:17,0.99 Mbit/s,8000,not_set,7000,not_set
+9175,0.06 Mbit/s,17-03-2024 01:02,< 0.01,8000,not_set,7000,not_set
+9259,0.09 Mbit/s,17-03-2024 02:18,< 0.01,8000,not_set,7000,not_set
+9176,0.06 Mbit/s,17-03-2024 01:02,< 0.01,8000,not_set,7000,not_set
+9177,407 Mbit/s,17-03-2024 03:21,< 0.01,8000,not_set,7000,not_set
+9260,150 Mbit/s,17-03-2024 05:31,< 0.01,16000,not_set,10000,not_set
+9261,"3,359 Mbit/s",17-03-2024 01:57,< 0.01,16000,not_set,10000,not_set
+9178,"1,128 Mbit/s",17-03-2024 03:19,< 0.01,8000,not_set,7000,not_set
+9262,< 0.01,17-03-2024 02:55,< 0.01,16000,not_set,10000,not_set
+9179,"1,124 Mbit/s",17-03-2024 01:29,< 0.01,8000,not_set,7000,not_set
+9263,"1,682 Mbit/s",17-03-2024 01:42,< 0.01,16000,not_set,10000,not_set
+9180,"1,732 Mbit/s",17-03-2024 01:28,< 0.01,8000,not_set,7000,not_set
+9264,0.15 Mbit/s,17-03-2024 03:18,< 0.01,16000,not_set,10000,not_set
+9181,"1,175 Mbit/s",17-03-2024 02:10,< 0.01,8000,not_set,7000,not_set
+9265,0.09 Mbit/s,17-03-2024 03:19,< 0.01,16000,not_set,10000,not_set
+9182,< 0.01,17-03-2024 01:31,< 0.01,8000,not_set,7000,not_set
+8429,5.86 Mbit/s,17-03-2024 06:36,0.29 Mbit/s,800,not_set,700,not_set
+10888,,,,not_set,not_set,not_set,not_set
+10637,0.21 Mbit/s,17-03-2024 04:01,0.04 Mbit/s,800,not_set,700,not_set
+10890,,,,800,not_set,700,not_set
+7366,1.35 Mbit/s,17-03-2024 03:48,0.04 Mbit/s,800,not_set,700,not_set
+7345,< 0.01,17-03-2024 05:46,< 0.01,800,not_set,700,not_set
+6522,< 0.01,17-03-2024 01:43,< 0.01,800,not_set,700,not_set
+5370,183 Mbit/s,17-03-2024 02:46,0.04 Mbit/s,800,not_set,700,not_set
+5374,< 0.01,17-03-2024 01:09,< 0.01,800,not_set,700,not_set
+10513,0.02 Mbit/s,17-03-2024 01:14,< 0.01,800,not_set,700,not_set
+10855,2.53 Mbit/s,17-03-2024 05:46,0.04 Mbit/s,800,not_set,700,not_set
+10540,0.38 Mbit/s,17-03-2024 05:22,< 0.01,800,not_set,700,not_set
+10526,< 0.01,17-03-2024 06:45,< 0.01,800,not_set,700,not_set
+7387,< 0.01,17-03-2024 00:39,< 0.01,800,not_set,700,not_set
+7289,< 0.01,17-03-2024 04:40,< 0.01,800,not_set,700,not_set
+6540,< 0.01,17-03-2024 01:33,< 0.01,800,not_set,700,not_set
+6547,< 0.01,17-03-2024 06:25,< 0.01,800,not_set,700,not_set
+2606,< 0.01,17-03-2024 06:20,< 0.01,800,not_set,700,not_set
+2601,< 0.01,17-03-2024 04:46,< 0.01,800,not_set,700,not_set

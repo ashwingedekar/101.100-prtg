@@ -47,7 +47,10 @@ for id_value in tqdm(id_values, desc="Processing IDs"):
     api_endpoint = f'https://{server_address}/api/historicdata.csv?id={id_value}&avg={flags.get("avg")}&sdate={flags.get("sdate")}&edate={flags.get("edate")}&username={server_parameters.get("username")}&passhash={server_parameters.get("passhash")}'
     response = requests.get(api_endpoint)
     df = pd.read_csv(io.StringIO(response.text))
-    df['Traffic Total (Speed)'] = df['Traffic Total (Speed)'].str.extract(r'(\d+\.*\d*)').astype(float)
+    #df['Traffic Total (Speed)'] = df['Traffic Total (Speed)'].str.extract(r'(\d+\.*\d*)').astype(float)
+    # Convert the 'Traffic Total (Speed)' column to string before extracting pattern
+    df['Traffic Total (Speed)'] = df['Traffic Total (Speed)'].astype(str).str.extract(r'(\d+\.*\d*)').astype(float)
+
     selected_data = df["Traffic Total (Speed)"]
     selected_data.to_csv("abcd.csv", index=False)
     if flags.get("cmp") == '1':
@@ -74,8 +77,8 @@ for id_value in tqdm(id_values, desc="Processing IDs"):
             output_df = pd.DataFrame(output_data)
             # Generate filename with current date and time
             current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-            output_filename = f"output_{current_datetime}.csv"
-            output_df.to_csv(output_filename, index=False)
+            output_filename = f"output_{current_datetime}.xlsx"
+            output_df.to_excel(output_filename, index=False)
         else:
             print(f"No data found exceeding the upper warning limit for ID: {id_value}")
     else:

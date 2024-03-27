@@ -47,9 +47,15 @@ for id_value in tqdm(id_values, desc="Processing IDs"):
     api_endpoint = f'https://{server_address}/api/historicdata.csv?id={id_value}&avg={flags.get("avg")}&sdate={flags.get("sdate")}&edate={flags.get("edate")}&username={server_parameters.get("username")}&passhash={server_parameters.get("passhash")}'
     response = requests.get(api_endpoint)
     df = pd.read_csv(io.StringIO(response.text))
-    df['Traffic Total (Speed)'] = df['Traffic Total (Speed)'].str.extract(r'(\d+\.*\d*)').astype(float)
-    selected_data = df["Traffic Total (Speed)"]
-    selected_data.to_csv("abcd.csv", index=False)
+    
+    try:
+        df['Traffic Total (Speed)'] = df['Traffic Total (Speed)'].astype(str).str.extract(r'(\d+\.*\d*)').astype(float)
+        selected_data = df["Traffic Total (Speed)"]
+    except KeyError:
+        print(f"Traffic Total (Speed) column not found for ID: {id_value}")
+        continue  # Skip processing for this ID and move to the next one
+    
+    
     if flags.get("cmp") == '1':
         filtered_data = selected_data[selected_data > upper_warning_limits.get(id_value, 0)]
         if not filtered_data.empty:
